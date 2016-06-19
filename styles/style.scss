@@ -1,4 +1,22 @@
-div{
+/*Zmienne*/
 
-  color: red;
+$kolor-firmowy: #ff0;
+$czcionka-firmowa: Arial, sans-serif;
+
+
+$szerokosc-ramki: 5px;
+$styl-ramki: solid;
+
+
+header{
+
+  background-color: $kolor-firmowy;
 }
+
+footer{
+
+  color: $kolor-firmowy;
+  font-family: $czcionka-firmowa;
+}
+
+
