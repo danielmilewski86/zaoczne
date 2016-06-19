@@ -29,7 +29,6 @@ body
     border-bottom: 1px solid #751b1b;
 }
 
-
 ol
 {
     padding: 0;
@@ -53,13 +52,9 @@ ol > li
     float: left;
     width: 150px;
     height: 40px;
-    border-right: 1px dashed #751b1b;
+    background-color: #be5858;
 }
 
-ol > li:first-child
-{
-    border-left: 1px dashed #751b1b;
-}
 
 ol > li:hover
 {
