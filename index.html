@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Nasza pierwsza strona</title>
+
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+r ytr
+    <div class="statyczny">element div</div>
+
+    <div class="kontener">
+
+        element do pozycjonowania
+    </div>
+
+    <div class="statyczny"> element div</div>
+
+
+    <!--formularz-->
+    <form action="">
+
+        <!--pole tekstowe-->
+        <label for="imie">imie</label><input id="imie" name="imie-uzytkownika" type="text">
+
+        <!--pole tekstowe-->
+        <label for="nazwisko">nazwisko</label><input id="nazwisko" name="nazwisko-uzytkownika" type="text">
+
+        <!--pole do zaznaczenia "kwadrat"-->
+        <input type="checkbox">
+
+        <!--pole do zaznaczenia kolo -->
+        <input name="plec" type="radio">
+        <input name="plec" type="radio">
+
+        <!--przycisk-->
+        <input type="submit">
+
+        <!-- pole na email-->
+        <label for="imie">imie</label><input id="imie" name="imie-uzytkownika" type="email">
+        <!-- pole na numery-->
+        <label for="imie">imie</label><input id="imie" name="imie-uzytkownika" type="number">
+        <!-- pole z wyborem kkoloru-->
+        <input type="color">
+        <!-- pole z suwakiem od 0 do 10-->
+        <input type="range" max="10" min="0" >
+
+
+        <label for="imie">imie</label><input id="imie" name="imie-uzytkownika" required type="text">
+
+        <label for="imie">imie</label><input id="imie" name="imie-uzytkownika" pattern="[a-z]{2}[0-9]{5}" type="text">
+
+        <label for="imie">imie</label><input id="imie" name="imie-uzytkownika" placeholder="LLCCC" type="text">
+
+        <textarea name="4" id="" cols="30" rows="10"></textarea>
+
+        <input type="button" value="jakas tresc na przycisku">
+
+
+        <!--nie dokonczone-->
+        <label for="carColor">Enter color</label>
+        <input type="text" id="carColor" list="">
+        <!--END-->
+
+
+        <input type="submit" value="wysli">
+
+    </form>
+
+    <!--multimedia <video> -->
+
+    <video autoplay controls poster="images/poster.jpg" preload="metadata">
+
+        <source src=small.webm type=video/webm>
+        <source src=small.ogv type=video/ogg>
+        <source src=small.mp4 type=video/mp4>
+
+
+    </video>
+
+    <!-- Obsluga elementow
+
+    header, nav, main, aside, footer, article, section{
+        display:block;
+    }
+
+
+
+    -->
+
+
+
+
+
+</body>
+</html>

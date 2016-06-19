@@ -1,0 +1,98 @@
+
+/*
+.test:hover
+{
+    background-color: aqua;
+    -webkit-filter: blur(0);
+    border-radius: 50%;
+    cursor: e-resize;
+}
+
+
+.test
+{
+
+    transition: background-color 5s linear 2s;
+
+    background-color: red;
+    width: 800px;
+    height: 800px;
+    color: yellow;
+    border: solid 3px green;
+    padding: 20px;
+    margin: 20px;
+    font-family: Arial, sans-serfi;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+    background-image: url(../images/c.jpeg);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    background-position: 30px 20px;
+    border-radius: 10px 20px 30px 40px;
+    box-shadow: 10px 10px 20px 20px #000 inset;
+    text-shadow: 5px 5px 5px #000 ;
+    transform: rotate(25deg);
+    -webkit-filter: blur(10px);
+
+}
+*/
+/*
+div
+{
+    background-color: yellow;
+    display: inline;
+}
+
+p
+{
+    background-color: red;
+}
+
+span
+{
+    background-color: aqua;
+}
+*/
+
+.statyczny{
+    height: 200px;
+    width: 500px;
+    color: #fff;
+    background-color: red;
+}
+
+
+.kontener{
+    width: 450px;
+    height: 100px;
+    background-color: aquamarine;
+
+}
+
+@media screen and (max-width: 479px){
+    body{
+
+        
+    }
+}
+
+@media print{
+    body{
+        background-color: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
