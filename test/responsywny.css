@@ -1,0 +1,81 @@
+@media all and (max-width:769px) {
+
+    #caly_blok{
+        font-size: 15px;
+    }
+
+    #lewy, #srodek, #prawy {
+        float:none;
+        width:auto;
+        margin:15px;
+    }
+
+    #lewy p, #prawy p {
+        border:1px solid gold;
+    }
+}
+
+
+
+#caly_blok {
+    font-size:24px;
+    min-width:480px;
+    max-width:1600px;
+    border-left:1px solid gold;
+    border-right:1px solid gold;
+}
+
+#naglowek {
+    background-color:gold;
+    text-align:center;
+    font-size:1.6em;
+    line-height:1.5em;
+}
+
+#lewy {
+    float:left;
+    width:25%;
+    font-size:1em;
+    line-height:1.5em;
+}
+
+#lewy p {
+    background-color: gray;
+    margin:15px 0;
+    padding:15px;
+}
+
+#srodek {
+    float:left;
+    width:50%;
+    font-size:1.2em;
+    line-height:1.5em;
+
+}
+
+#srodek p {
+    margin:15px 0;
+    padding:15px;
+    background-color: lightslategray;
+}
+
+#prawy {
+    float:left;
+    width:25%;
+    font-size:1em;
+    line-height:1.5em;
+}
+
+#prawy p {
+    background-color: lightgray;
+    margin:15px 0;
+    padding:15px;
+}
+
+#stopka {
+    clear:both;
+    background-color:gold;
+    text-align:center;
+    font-size:1.4em;
+    line-height:1.5em;
+}
