@@ -1,97 +1,143 @@
-/*Zapis przedstawiony powyżej będzie mówił przeglądarce internetowej,
-że ma ona wykorzystać podane reguły CSS tylko wtedy, gdy nasza strona internetowa zostanie wyświetlona
-w oknie przeglądarki o wartości szerokości od 480 pikseli do 768 pikseli*/
-
-
-/*Możemy również sprawić, aby kolumny naszego układu elementów HTML zawsze układały się jedna pod drugą,
-gdy wartość szerokości okna przeglądarki internetowej będzie mniejsza niż 769px, wtedy przedział wartości,
-w obrębie którego do naszego układu elementów HTML zostaną dodane dodatkowe reguły CSS, będzie wynosił od 0 do 768px*/
-
-
-
-/*Od tej pory zapis @media all and (max-width:769px) będzie mówił przeglądarce internetowej,
-że reguły CSS jakie są zapisane w regule @media mają być przeznaczone dla wszystkich typów urządzeń (all),
-oraz których (and) wartość szerokości okna przeglądarki internetowej jest mniejsza niż 769 pikseli, stąd zapis (max-width:769px).*/
-
-@media all and /*(min-width:480px)*/ (max-width:769px) {
-
-    #caly_blok{
-        font-size: 15px;
-    }
-
-    #lewy, #srodek, #prawy {
-        float:none;
-        width:auto;
-        margin:15px;
-    }
-
-    #lewy p, #prawy p {
-        border:1px solid gold;
-    }
-}
-
-/*#############################################################################################*/
-
-
-#caly_blok {
-    font-size:24px;
-    min-width:480px;
-    max-width:1600px;
-    border-left:1px solid gold;
-    border-right:1px solid gold;
-}
-
-#naglowek {
-    background-color:gold;
-    text-align:center;
-    font-size:1.6em;
-    line-height:1.5em;
-}
-
-#lewy {
-    float:left;
-    width:25%;
-    font-size:1em;
-    line-height:1.5em;
-}
-
-#lewy p {
-    background-color: gray;
-    margin:15px 0;
-    padding:15px;
-}
-
-#srodek {
-    float:left;
-    width:50%;
-    font-size:1.2em;
-    line-height:1.5em;
-
-}
-
-#srodek p {
-    margin:15px 0;
-    padding:15px;
-    background-color: lightslategray;
-}
-
-#prawy {
-    float:left;
-    width:25%;
-    font-size:1em;
-    line-height:1.5em;
-}
-
-#prawy p {
+#wrapper
+{
+    width: 1000px;
+    height: 500px;
     background-color: lightgray;
-    margin:15px 0;
-    padding:15px;
+    position: relative;
 }
 
-#stopka {
-    clear:both;
-    background-color:gold;
-    text-align:center;
-    font-size:1.4em;
-    line-height:1.5em;
+#jeden
+{
+   width: 300px;
+    height: 150px;
+    background-color: red;
+    text-align: center;
 }
+
+#dwa
+{
+    width: 300px;
+    height: 150px;
+    background-color: yellow;
+    text-align: center;
+
+    /*
+    position: relative; przesuwa dany elment z pozycji w ktorej aktualnie sie znajduje, i nie wplywa na inne
+    left: 200px;
+    top: 100px;
+    */
+
+    position: absolute; /*przesuwa dany element wzgedem okna przegladarki
+                          gdy ustawimy position:relative np. w wrapper to element bedzie sie
+                          ustwaial do wrappera*/
+    left: 10px;
+    top: 10px;
+    bottom: 0;
+    right: 0;
+}
+
+#trzy
+{
+    width: 300px;
+    height: 150px;
+    background-color: deepskyblue;
+    text-align: center;
+}
+
+
+
+
+
+/* ##############################ogólne #######(RESPONSYWNY HTML i CSS)####################### */
+
+* {margin:0px; padding: 0px;}
+
+body
+{   font: 16px Verdana;
+    line-height:1.6;
+    background: #EDE6DE;
+}
+#wrapper
+{   width:90%;
+    overflow:hidden;
+    margin: 0 auto;
+}
+a
+{
+    color: #354458;
+}
+
+/*############logo##############
+#header
+{
+    height:100px;
+    background: #354458;
+    margin: 0 0 10px 0;
+}
+#header h1
+{
+    padding: 20px;
+    color: #E9E0D6;
+}
+
+/*###########################tresc##################
+#content
+{
+    width:75%;
+    background: #EB7260;
+    float:left;
+    padding:1%;
+    overflow:hidden;
+}
+
+/* ##############################menu ##############################
+#menu
+{
+    background: #548BC2;
+    width:20%;
+    float:right;
+    padding:1%;
+    overflow:hidden;
+}
+#menu h5
+{
+    padding:3px 3px 15px 3px;
+    font-size:14px;
+}
+#menu ul li
+{
+    list-style-type:none;
+    padding:0 0 0 10px;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    #menu
+        {
+            width:88%;
+            position:absolute;
+            height:30px;
+        }
+    #menu h5
+        {
+            display: none;
+        }
+    #menu ul li
+        {
+            display: inline;
+        }
+    #menu ul li:after
+        {
+            content: " |";
+        }
+    #content
+        {
+            width: 98%;
+            position:relative;
+            top: 30px;
+            margin-top:5%;
+        }
+}
+
+*/
