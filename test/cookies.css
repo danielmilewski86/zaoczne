@@ -1,3 +1,4 @@
+/* CALE ELEMENT */
 #cookiesEU-box{
     position: relative;
     z-index: 999;
@@ -17,11 +18,12 @@
     padding: 2px 10px;
     padding: 10px 20px 6px 20px;
 }
-
+/* TEKST*/
 .cookiesEU-text{
     padding-right: 100px;
 }
 
+/* ZAMKNIECIE " X "*/
 .cookiesEU-close{
     position: absolute;
     top: 0;
