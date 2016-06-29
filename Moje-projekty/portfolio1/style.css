@@ -1,0 +1,247 @@
+body
+{
+	background-image: url("tlo.png");
+	
+	
+}
+
+#container
+{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#rectangle
+{
+	width:1000px;
+	
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:20px;
+	
+	
+	
+}
+
+
+
+#logo
+{
+	width:1000px;
+	 
+	margin-left:auto;
+	margin-right:auto;
+	font-family: 'Amatic SC', cursive;
+	text-align:center;
+	font-size:80px;
+	letter-spacing:3px;
+	text-shadow: 0 0 10px rgba(100,100,100, .8);
+	border-bottom:2px solid orange;
+	
+	
+}
+
+#square
+{
+	float:left;
+	width:50%;
+	height:500px;
+	margin-top:50px;
+	
+	
+}
+
+.czcionka
+{
+	font-family: 'Amatic SC', cursive;
+	font-weight:700;
+}
+
+h2
+{
+	font-family: 'Amatic SC', cursive;
+	font-weight:700;
+	font-size:35px;
+	margin-top:0;
+	padding-top:0;
+}
+
+.kontakt-naglowek
+{
+	text-align:center;
+}
+.emile
+{
+	text-align:center;
+	font-size:40px;
+	font-weight:300;
+	font-family: 'Amatic SC', cursive;
+	font-weight:700;
+}
+
+.pelne-cv
+{
+	font-family: 'Amatic SC', cursive;
+	font-weight:700;
+	font-size:25px;
+	
+}
+.o-mnie
+{
+	text-align:justify;
+	font-family: 'Josefin Sans', sans-serif;
+}
+#social-network
+{
+	float:left;
+	width:200px;
+	height:200px;
+	margin-left:30px;
+	margin-bottom:20px;
+	
+	
+	
+}
+
+#social-network:hover
+{
+	opacity:0.9;
+}
+
+
+ul
+{
+	font-family: 'Josefin Sans', sans-serif;
+}
+#tile1
+{
+	width:200px;
+	height:200px;
+	font-size:25px;
+	float:left;
+	border-radius:50%;
+	text-align:center;
+	margin-left:20px;
+	margin-top:10px;
+	border:2px solid orange;
+	box-shadow:0 0 20px orange; /*cien wokol okregu*/
+	background-color:white;
+	display:block;
+}
+
+
+#tile2
+{
+	width:200px;
+	height:200px;
+	font-size:25px;
+	float:left;
+	border-radius:50%;
+	text-align:center;
+	margin-left:20px;
+	margin-top:10px;
+	border:2px solid orange;
+	box-shadow:0 0 20px orange; /*cien wokol okregu*/
+	background-color:white;
+	
+}
+
+#tile3
+{
+	width:200px;
+	height:200px;
+	font-size:25px;
+	float:left;
+	border-radius:50%;
+	text-align:center;
+	margin-left:20px;
+	margin-top:20px;
+	border:2px solid orange;
+	box-shadow:0 0 20px orange; /*cien wokol okregu*/
+	cursor:pointer;
+	background-image: url("FOTO1.png");	 /*mozna wkleic zdjecie profilowe*/
+	background-color:white;
+	display:block;
+	
+}
+
+#tile4
+{
+	width:200px;
+	height:200px;
+	font-size:25px;
+	float:left;
+	border-radius:50%;
+	text-align:center;
+	margin-left:20px;
+	margin-top:20px;
+	border:2px solid orange;
+	box-shadow:0 0 20px orange; /*cien wokol okregu*/
+	background-color:white;
+}
+
+#tile1:hover
+{
+	-webkit-transform: scale(1.1) translate(0px, 0px);	
+	-moz-transform: scale(1.1) translate(0px, 0px);
+	-o-transform: scale(1.1) translate(0px, 0px);
+	-ms-transform: scale(1.1) translate(0px, 0px);
+	
+}
+
+
+#tile2:hover
+{
+	-webkit-transform: scale(1.1) translate(0px, 0px);
+	-moz-transform: scale(1.1) translate(0px, 0px);
+	-o-transform: scale(1.1) translate(0px, 0px);
+	-ms-transform: scale(1.1) translate(0px, 0px);	
+}
+
+#tile3:hover
+{
+	-webkit-transform: scale(1.1) translate(0px, 0px);
+	-moz-transform: scale(1.1) translate(0px, 0px);
+	-o-transform: scale(1.1) translate(0px, 0px);
+	-ms-transform: scale(1.1) translate(0px, 0px);
+}
+
+#tile4:hover
+{
+	-webkit-transform: scale(1.1) translate(0px, 0px);
+	-moz-transform: scale(1.1) translate(0px, 0px);
+	-o-transform: scale(1.1) translate(0px, 0px);
+	-ms-transform: scale(1.1) translate(0px, 0px);
+}
+
+a
+{
+	text-decoration:none;
+	color:black;
+}
+
+
+#content
+{
+	width:500px;
+	height:auto;
+	margin-top:20px;
+	overflow:auto;
+	padding:10px;
+	
+	/*
+	box-shadow:  0 0 20px #000;
+	background-image: url("papier.png");
+	
+	Tlo to kartka z liniami w poziomie i cieniowanie w kolo niego!
+	*/
+}
+
+#footer
+{
+	width:1000px;
+	height:50px;
+	/*padding:20px;*/
+}
+
