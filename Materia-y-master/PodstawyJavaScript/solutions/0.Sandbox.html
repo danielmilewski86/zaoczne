@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Piaskownica</title>
+</head>
+<body>
+
+<script>
+    var mojaZmienna = 100;
+    var mojaZmiennaTextowa = '100';
+
+    var text1 = 'w apostrofach',
+        text2 = "w cudzyslowiach";
+
+
+    function sumator (pierwszy, drugi, trzeci) {
+        console.log('pierwszy parametr', pierwszy);
+        console.log('drugi parametr', drugi);
+        console.log('trzeci parametr', trzeci);
+
+        var wynikDodawania = pierwszy + drugi + trzeci;
+        console.log('wynik sumowania', wynikDodawania);
+        return wynikDodawania;
+    }
+
+    var wynik = sumator(100, 200, 303);
+
+    console.log(wynik);
+    console.log(sumator(404, 505, 606));
+
+
+
+    function policzGosci() {
+        console.log('goscie');
+        return 100;
+    }
+
+    function policzDzieci() {
+        console.log('dzieci');
+        return 20;
+    }
+
+    function policzPersonel() {
+        console.log('personel');
+        return 15;
+    }
+
+    console.log('przed przeliczeniem');
+
+    var liczbaOsob = policzGosci() + policzPersonel() + policzDzieci();
+
+    console.log('po przeliczeniu');
+
+    console.log('lacznie', liczbaOsob);
+
+
+
+
+
+</script>
+
+
+
+</body>
+</html>

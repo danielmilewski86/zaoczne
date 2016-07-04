@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>3b.For</title>
+</head>
+<body>
+
+<script>
+
+    /* Gramy w kasynie.
+     * Startujemy ze 105 zł
+     * Jeden zakład wynosi 10 zł
+     * Jesteśmy wyjątkowo pechowi i każdą rundę przegrywamy.
+     * Gramy tak długo aż nie będzie mnie stać na dalszą grę.
+     * Napisz pętlę for, która pokaże stan konta po każdej grze
+     */
+
+
+    var money = 105;
+
+    for ( var zaklad = 10 ; money >= zaklad ; money -= zaklad ) {
+        console.log('Mam ' + money + ' zł. Gram');
+    }
+
+    console.log('Spłukałem się. Zostało mi ' + money + ' zł');
+</script>
+
+</body>
+</html>

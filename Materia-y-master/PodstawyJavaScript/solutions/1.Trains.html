@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<title>1.Trains</title>
+</head>
+<body>
+
+<script>
+	var liczbaWagonikow = 5;
+
+	function dodaj(liczbaDoZmiany) {
+		console.log('dodaje wagoniki', liczbaDoZmiany);
+		liczbaWagonikow ++
+	}
+
+	function usun(liczbaDoZmiany) {
+		if (liczbaWagonikow >= liczbaDoZmiany) {
+			console.log('usuwam wagoniki', liczbaDoZmiany);
+			liczbaWagonikow -= liczbaDoZmiany;
+		} else {
+			console.log('brakuje wagonikow - nie usuwamy');
+		}
+	}
+
+	console.log('przed operacjami', liczbaWagonikow);
+
+	dodaj(1);
+	usun(5);
+	usun(10);
+
+	console.log('po operacjach', liczbaWagonikow);
+</script>
+
+</body>
+</html>
