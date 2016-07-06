@@ -16,7 +16,60 @@
 	*  Jeżeli język jest inny niż powyższe posługujemy się angielskim
 	* */
 
+	//############ vol.1 #################
+
+	//definiujemy zmienna 'lang' z jezykiem
 	var lang = 'pl';
+
+	//jesli 'lang' jest rowny 'pl' to wyskoczy komunikat w jezyku polskim. Tak samo bedzie w nastepnych np.
+	if(lang === "pl"){
+		console.log('witaj na stronie z jezyku polskim');
+	}else if(lang === "de"){
+		console.log('Guten Tagg');
+	}else if(lang === "en"){
+		console.log('Hello in my page');
+	}
+	//jesli w zmiennej 'lang' zdefiniujemy inny jezyk niz podane w if to wyskoczy ostatni komunikat 'else'
+	else{
+		console.log('bedziemy poslugiwac sie jezykiem angielskim, Zaczynamy :)');
+	}
+
+	//################ vol. 2 #####################
+
+	var firstName = "Daniel ";
+	var lastName = "Milewski ";
+	var age = 30;
+
+	if(firstName === firstName && lastName === lastName){
+		console.log(firstName + lastName + 'mam ' + age + 'lat.');
+
+	}
+	else{
+		console.log('zle napisany kod i mamy blad!');
+	}
+
+
+	//########## vol.2b ############
+
+	var num = 10;
+	var num1 = 10;
+	var num2 = 30;
+	var num3 = 10;
+
+
+
+	if(num > num1){
+		console.log('liczy 10 i 20 nie sa rowne');
+	}else if(num > num2){
+		console.log('liczba 10 jest mniejsza od 30');
+	}else if(num === num3){
+		console.log('liczba 10 jest rowna 10');
+	}
+
+
+
+
+
 
 </script>
 
