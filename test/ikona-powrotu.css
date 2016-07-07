@@ -6,26 +6,17 @@
 
 }
 
-
 .scroll{
     width: 100px;
     height: 100px;
     background-color: black;
-    position: absolute;
-    left:50px;
-    top:500px;
-    position: fixed;
-    transition-property:fixed;
-    /*
-    -webkit-animation-name:moja_animacja;
-    -webkit-animation-duration:4s;
-    -webkit-animation-iteration-count:infinite;
-*/
-}
 
-a{
-    transition-duration:12s;
-    transition-timing-function:linear;
+    position: absolute;
+    left:85%;
+    top:80%;
+    position: fixed;
+
+
 }
 
 .title1
@@ -41,7 +32,6 @@ a{
     height: 300px;
     background-color: green;
 }
-
 
 .title3
 {
@@ -66,22 +56,3 @@ a{
 
 
 
-
-
-
-
-
-/*
-.scrollup
-{
-    width: 64px;
-    height: 64px;
-    text-decoration: none;
-    background: url("../images/up.png") no-repeat 0px 0px;
-    position: fixed;
-    right: 50px;
-    bottom: 50px;
-    display: none;
-}
-
-*/
