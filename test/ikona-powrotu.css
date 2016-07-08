@@ -10,11 +10,12 @@
     width: 100px;
     height: 100px;
     background-color: black;
-
     position: absolute;
     left:85%;
     top:80%;
     position: fixed;
+    border-radius: 50%;
+    opacity: 0.6;
 
 
 }
