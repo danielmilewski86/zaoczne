@@ -8,9 +8,33 @@
 
 <script>
 
-	// TUAJ PISZEMY KOD
+	// TUAJ PISZEMY KOD TO JEST GOTOWY PRZYKLAD
+	var liczbaWagonikow = 5;
 
-	//
+	function dodaj(liczbaDoZmiany) {
+		console.log('dodaje wagoniki', liczbaDoZmiany);
+		liczbaWagonikow ++
+
+	}
+
+	function usun(liczbaDoZmiany) {
+		if (liczbaWagonikow >= liczbaDoZmiany) {
+			console.log('usuwam wagoniki', liczbaDoZmiany);
+			liczbaWagonikow -= liczbaDoZmiany;
+		} else {
+			console.log('brakuje wagonikow - nie usuwamy');
+		}
+	}
+
+	console.log('przed operacjami', liczbaWagonikow);
+
+	dodaj(1);
+	usun(5);
+	usun(10);
+
+	console.log('po operacjach', liczbaWagonikow);
+
+
 
 
 

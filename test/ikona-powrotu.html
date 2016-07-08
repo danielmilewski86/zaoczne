@@ -2,61 +2,53 @@
 <html lang="pl">
 <head>
     <meta charset="utf-8" />
-    <title>Monitory komputerowe</title>
+    <title>przewijanie</title>
 
+<!-- NIE WIEM JAK INACZEJ TO ZROBIC, NIE MOGE NIC ZNALESC ZEBY ZROBIC TO TYLKO W HTML I CSS.
+     GDZIE NIE WEJDE NA STRONE TO PISZA ZE MUSI BYC BIBIOTEKA "QJARY" I "JS" TAK WIEC: KOD JS JEST SCIAGNIETY Z INTERNETU
+      I PODLINKOWANA JEST BIBLIOTEK. ZOSTAJE TYLKO GRAFICZNA STRZALKA ALE TAKIEJ NIE MAM
+
+      -->
 
     <link rel="stylesheet" href="ikona-powrotu.css" type="text/css" />
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
+    <script>
+        $(document).ready(function() {
 
+            $('a[href^="#"]').on('click', function(event) {
 
-    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>-->
+                var target = $( $(this).attr('href') );
 
-    <!--<script src="jquery.scrollTo.min.js"></script>-->
+                if( target.length ) {
+                    event.preventDefault();
+                    $('html, body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                }
+            });
 
-    <!--<script>-->
+        });
+    </script>
 
-        <!--jQuery(function($)-->
-                <!--{-->
-                    <!--//zresetuj scrolla-->
-                    <!--$.scrollTo(0);-->
+    <!--
 
-                    <!--$('#link1').click(function() { $.scrollTo($('#budowacrt'), 500); });-->
-                    <!--$('#link2').click(function() { $.scrollTo($('#zasadacrt'), 500); });-->
-                    <!--$('#link3').click(function() { $.scrollTo($('#maskicrt'), 500); });-->
-                    <!--$('#link4').click(function() { $.scrollTo($('#wadyzaletycrt'), 500); });-->
-                    <!--$('#link5').click(function() { $.scrollTo($('#parametrycrt'), 500); });-->
-                    <!--$('#link6').click(function() { $.scrollTo($('#budowalcd'), 500); });-->
-                    <!--$('#link7').click(function() { $.scrollTo($('#zasadalcd'), 500); });-->
-                    <!--$('#link8').click(function() { $.scrollTo($('#matrycelcd'), 500); });-->
-                    <!--$('#link9').click(function() { $.scrollTo($('#wadyzaletylcd'), 500); });-->
-                    <!--$('#link10').click(function() { $.scrollTo($('#parametrylcd'), 500); });-->
-                    <!--$('#link11').click(function() { $.scrollTo($('#dsub'), 500); });-->
-                    <!--$('#link12').click(function() { $.scrollTo($('#dvi'), 500); });-->
-                    <!--$('#link13').click(function() { $.scrollTo($('#hdmi'), 500); });-->
-                    <!--$('#link14').click(function() { $.scrollTo($('#przyszlosc'), 500); });-->
-                    <!--$('#link15').click(function() { $.scrollTo($('#zrodla'), 500); });-->
+    W trzeciej linijce odwołujemy się do wszystkich linków które w atrybucie href posiadają znak # i ustawiamy metodą .on kod, który wykona się po kliknięciu na taki element.
 
-                    <!--$('.scrollup').click(function() { $.scrollTo($('body'), 1000); });-->
-                <!--}-->
-        <!--);-->
+Na samym początku do zmiennej target zostanie przypisany element od id równym atrybutowi href klikniętego odnośnika, czyli jeśli klikniemy na link o href  równym top to odwołamy się do elementu o id top.
 
-        <!--//pokaż podczas przewijania-->
-        <!--$(window).scroll(function()-->
-                <!--{-->
-                    <!--if($(this).scrollTop()>300) $('.scrollup').fadeIn();-->
-                    <!--else $('.scrollup').fadeOut();-->
-                <!--}-->
-        <!--);-->
+Poniżej w instrukcji if sprawdzamy czy długość zmienna target przechowuje jakąś wartość. Jeśli tak to przy pomocy event.preventDefault() wyłączamy domyślne działanie odnośnika. Jeśli tego nie zrobimy to przewijanie nie będzie tak płynne ponieważ wykonane zostanie również domyślne działanie – natychmiastowy przeskok do elementu.
 
+Poniżej metodą .animate wywołaną na elementach html oraz body przewijamy stronę przy pomocy scrollTop do elementu o danym id. Ustawiamy długość animacji na 1000 milisekund – 1 sekundę.
 
-    <!--</script>-->
+Teraz wystarczy w atrybucie dowolnego odnośnika na stronie wpisać znak # oraz id dowolnego elementu, do którego chcemy się odnieść.
+
+    -->
 
 </head>
 
 <body>
-
-
 
 <div id="container">
 
@@ -68,13 +60,7 @@
 
     <a href="#pozycja"><div class="scroll"></div></a>
 
-
-
-
-
 </div>
-
-
 
 </body>
 </html>

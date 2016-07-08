@@ -7,10 +7,7 @@
 <body>
 
 <script>
-	var date = new Date(),
-		day = date.getDay(),
-		minute = date.getMinutes(),
-		hour = date.getHours();
+	//################ ZADANIE NA ZAJECIACH ########################
 
 	/* Piszecie serwis do promocyjnej sprzedaży produktów.
 	* Sklep udziela rabatu według następujących zasad:
@@ -23,6 +20,37 @@
 	* Masz do dyspozycji zmienne day, minute, hour
 	*
 	* */
+
+
+	var date = new Date(),
+			day = date.getDay(),
+			minute = date.getMinutes(),
+			hour = date.getHours();
+
+	function showPromo(day, hour, minute) {
+		if ( day !== 0 && (hour == 12 || hour == 15 || hour == 18) && minute >= 45) {
+			//oprucz niedzieli !== --> zaprzeczenie && --> i, || --> lub, == -->rowne, >= --> mniejsze lub rowne
+			console.log('20%');
+		} else if (minute >= 57) {
+			console.log('10%');
+		} else {
+			console.log('brak promocji');
+		}
+	}
+
+	showPromo(0,18,12); //bp
+	showPromo(0,18,46); //bp
+	showPromo(0,15,46); //bp
+	showPromo(2,15,46); //20
+	showPromo(2,15,59); //20
+	showPromo(0,19,58); //10
+	// wywploanie funkcji + (0,19,58) --> dzien tygodnia, godzina, minuta
+
+
+//################### END #################################################
+
+
+
 
 </script>
 
