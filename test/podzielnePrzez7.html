@@ -21,6 +21,48 @@
      * */
     
 
+//    console.log("liczby od 1 do 100");
+//
+//    for( var i = 1; i<=100; i++){
+//
+//        console.log(i);
+//    }
+//
+//
+////############################################################
+//    console.log('liczby podzielne przez 7');
+//
+//    for( var i =1; i<=100; i++){
+//
+//        if(i % 7 !=0)
+//            continue;
+//                console.log(i);
+//    }
+
+console.log('pobrana funkcja');
+
+    var liczba = 21;
+    var wynik = liczba%7;
+
+    if(wynik ===0){
+        console.log(liczba + ' jest podzielna przez 7');
+    }else{
+        console.log(liczba + ' nie jest podzielna');
+    }
+
+    for(liczba = 1; liczba <=100; liczba++){
+        var wynik = liczba&7;
+        if(wynik === 0){
+            console.log(liczba + ' jest podzielna przez 7');
+        }
+    }
+    console.log('koniec licznia');
+
+
+
+
+
+
 
 </script>
 
