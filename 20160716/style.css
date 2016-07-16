@@ -1,0 +1,77 @@
+.clear{
+    clear: both;
+}
+
+body{
+    background-color: #4C4C4C;
+    color: white;
+    height: 1000px;
+}
+
+.naglowek-strony{
+    background-color: #f00;
+}
+
+.naglowek-strony .menu{
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    background-color: green;
+    float: right;
+}
+
+.naglowek-strony .logo{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    float: left
+;
+}
+
+/*########################*/
+
+
+.tresc-glowna-strony{
+    background-color: #ddd;
+    position: relative;
+}
+
+.tresc-glowna-strony .item{
+    height: 100px;
+    background-color: yellow;
+    border: 5px solid violet;
+}
+
+.tresc-glowna-strony .item-2{
+    width: 500px;
+    /*position: relative;*/
+    left:300px;
+    top: 50px;
+}
+
+.kwadracik{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    right: 20px;
+    bottom:10px;
+
+}
+
+
+/*############################*/
+.stopka-strony{
+    background-color: black;
+
+}
+
+.social{
+    width: 100px;
+    height: 100px;
+    background-color: #333333;
+    position: fixed;
+    top:30px;
+    right:0;
+}
