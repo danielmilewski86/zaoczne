@@ -118,6 +118,57 @@ ul > li{
 
 .book{
     width: 100%;
-    height: 800px;
+    height: auto;
     background-color: gray;
+}
+
+.book-content{
+    width: 1000px;
+    background-color: bisque;
+    margin-right: auto;
+    margin-left: auto;
+    /*padding-top: 10px;*/
+}
+
+.book-title-1{
+    background-color: gold;
+    width: 400px;
+    height: 400px;
+    float: left;
+
+}
+
+.book-title-2{
+    background-color: green;
+    width: 400px;
+    height: 400px;
+    float: right;
+}
+
+.book-title-3{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.book-title-4{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+
+.book-title-5{
+    background-color: greenyellow;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.book-title-6{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    float: right;
 }
