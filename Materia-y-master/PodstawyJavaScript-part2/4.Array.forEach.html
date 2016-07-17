@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title> Array.forEach </title>
+</head>
+<body>
+
+<div id="heroes"></div>
+
+<script src="lib/jquery-2.1.4.min.js"></script>
+
+<script>
+
+    var heroes = ["Batman", "Robin", "Freeze", "Riddler"];
+
+
+    heroes.forEach(function(hero){
+
+        var heroElement = $('<div>') .addClass('hero-class') .text(hero);
+        $('#heroes') .append(heroElement);
+
+    });
+// tworzy 4 divy o klasie hero-class i wpisuje bochaterow jako tekst
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
