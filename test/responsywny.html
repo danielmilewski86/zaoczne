@@ -6,6 +6,33 @@
     <title>Title</title>
 
     <link rel="stylesheet" type="text/css" href="responsywny.css">
+
+
+    <!-- cookies Znalazlem to na stronie:        http://ciasteczka.eu/  -->
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="http://ciasteczka.eu/cookiesEU-latest.min.js"></script>
+
+    <script type="text/javascript">
+
+        jQuery(document).ready(function(){
+            jQuery.fn.cookiesEU({
+
+                    test: true, /*jesli dodamy false ciasteczka pojawia sie tylko raz po zamknieciu lub odswierzeniu strony*/
+                                /*po slowie true mozna dodac przecinek i wpisac inne wlasciwosci np. text: Daniel Milewski i zamiast domyslnego tekstu pojawi sie Daniel Milewski*/
+                                /*przyklady jakie mozna wpisac dalej: sa na stronie http://ciasteczka.eu/  */
+
+                box_css:	'box-shadow: 0px 0px 30px 2px rgba(0,0,0,0.5); background-color:#e3dccf; color:black; border-radius:5px;',
+                position:	'bottom'
+
+
+
+            });
+        });
+
+    </script>
+
+
 </head>
 <body>
 
@@ -31,13 +58,21 @@
 -->
 
 
-<!--Plywanie elemento-->
+<!--#############Plywanie elemento############
 
 <div id="wrapper">
     <div id="jeden">JEDEN</div>
     <div id="dwa">DWA</div>
     <div id="trzy">TRZY</div>
 </div>
+-->
 
+<!--   https://support.google.com/webmasters/answer/156184?hl=pl&ref_topic=4581190
+
+       http://www.sitemaps.org/pl/protocol.html
+
+        Mapa witryny info...
+
+     -->
 </body>
 </html>
