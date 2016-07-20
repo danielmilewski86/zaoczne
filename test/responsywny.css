@@ -1,48 +1,48 @@
-#wrapper
-{
-    width: 1000px;
-    height: 500px;
-    background-color: lightgray;
-    position: relative;
-}
+/*#wrapper*/
+/*{*/
+    /*width: 1000px;*/
+    /*height: 500px;*/
+    /*background-color: lightgray;*/
+    /*position: relative;*/
+/*}*/
 
-#jeden
-{
-   width: 300px;
-    height: 150px;
-    background-color: red;
-    text-align: center;
-}
+/*#jeden*/
+/*{*/
+   /*width: 300px;*/
+    /*height: 150px;*/
+    /*background-color: red;*/
+    /*text-align: center;*/
+/*}*/
 
-#dwa
-{
-    width: 300px;
-    height: 150px;
-    background-color: yellow;
-    text-align: center;
+/*#dwa*/
+/*{*/
+    /*width: 300px;*/
+    /*height: 150px;*/
+    /*background-color: yellow;*/
+    /*text-align: center;*/
 
-    /*
-    position: relative; przesuwa dany elment z pozycji w ktorej aktualnie sie znajduje, i nie wplywa na inne
-    left: 200px;
-    top: 100px;
-    */
+    /*!**/
+    /*position: relative; przesuwa dany elment z pozycji w ktorej aktualnie sie znajduje, i nie wplywa na inne*/
+    /*left: 200px;*/
+    /*top: 100px;*/
+    /**!*/
 
-    position: absolute; /*przesuwa dany element wzgedem okna przegladarki
-                          gdy ustawimy position:relative np. w wrapper to element bedzie sie
-                          ustwaial do wrappera*/
-    left: 10px;
-    top: 10px;
-    bottom: 0;
-    right: 0;
-}
+    /*position: absolute; !*przesuwa dany element wzgedem okna przegladarki*/
+                          /*gdy ustawimy position:relative np. w wrapper to element bedzie sie*/
+                          /*ustwaial do wrappera*!*/
+    /*left: 10px;*/
+    /*top: 10px;*/
+    /*bottom: 0;*/
+    /*right: 0;*/
+/*}*/
 
-#trzy
-{
-    width: 300px;
-    height: 150px;
-    background-color: deepskyblue;
-    text-align: center;
-}
+/*#trzy*/
+/*{*/
+    /*width: 300px;*/
+    /*height: 150px;*/
+    /*background-color: deepskyblue;*/
+    /*text-align: center;*/
+/*}*/
 
 
 
@@ -67,7 +67,7 @@ a
     color: #354458;
 }
 
-/*############logo##############
+/*############logo##############*/
 #header
 {
     height:100px;
@@ -80,7 +80,7 @@ a
     color: #E9E0D6;
 }
 
-/*###########################tresc##################
+/*###########################tresc##################*/
 #content
 {
     width:75%;
@@ -90,7 +90,7 @@ a
     overflow:hidden;
 }
 
-/* ##############################menu ##############################
+ /*##############################menu ##############################*/
 #menu
 {
     background: #548BC2;
@@ -117,7 +117,7 @@ a
         {
             width:88%;
             position:absolute;
-            height:30px;
+            height:50px;
         }
     #menu h5
         {
@@ -126,11 +126,16 @@ a
     #menu ul li
         {
             display: inline;
+
+            /*ukrycie tekstu*/
+            visibility: hidden;
+
         }
     #menu ul li:after
-        {
-            content: " |";
-        }
+         {
+             content: " |";
+         }
+
     #content
         {
             width: 98%;
@@ -138,6 +143,40 @@ a
             top: 30px;
             margin-top:5%;
         }
+
+
+    #menu ul li i{
+        font-size: 40px;
+        visibility: visible;
+
+
+
+    }
+
 }
 
-*/
+.ion-ios-home-outline{
+    font-size: 20px;
+    visibility:hidden;
+
+
+
+}
+
+.ion-ios-at-outline{
+    font-size: 20px;
+    visibility:hidden;
+
+}
+.ion-ios-people-outline{
+    font-size: 20px;
+    visibility:hidden;
+}
+.ion-ios-more-outline{
+    font-size: 20px;
+    visibility:hidden;
+}
+.ion-ios-star-outline{
+    font-size: 20px;
+    visibility:hidden;
+}
