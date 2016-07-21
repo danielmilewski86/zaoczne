@@ -93,9 +93,52 @@ body{
     text-decoration: none;
     color: #5aff00;
 }
+/*###############################################*/
+.features-wrapper{
+    background-color: #000000;
+    background-image: url(../images/jpg/about_me_bg_image.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    height: 841px;
 
+}
+.features-wrapper-page{
+    padding-top: 150px;
+    padding-left: 150px;
+}
+.features-wrapper h1{
+    font-family:'Gotham',sans-serif,arial;
+    font-weight: bold;
+    font-size: 60px;
+    color:#ffffff;
+}
 
+.features-wrapper h2{
+    font-family:'Gotham',sans-serif,arial;
+    font-weight: bold;
+    font-size: 60px;
+    color:#5aff00;
+}
 
+.features-wrapper p{
+    font-family:'Gotham',sans-serif,arial;
+    font-weight: 400;
+    font-size: 24px;
+    color:#ffffff;
+}
+
+.separator{
+    border: 2px solid #5aff00;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100px;
+    margin-top: 10px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+
+}
 
 
 
