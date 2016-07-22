@@ -25,7 +25,7 @@ body{
     right: 0;
     z-index: 100;
 }
-
+/*##############################    LOGO    #################################*/
 .logo{
     background-image: url(../images/png/logo_header.png);
     background-repeat: no-repeat;
@@ -36,7 +36,7 @@ body{
     line-height:30px;
     margin-left: 10px;
 }
-
+/*##############################    MENU    #################################*/
 .menu{
 
     margin-top: 15px;
@@ -94,7 +94,7 @@ body{
     text-decoration: none;
     color: #5aff00;
 }
-/*###############################################*/
+/*##################    FEATURES    #############################*/
 .features-wrapper{
     background-color:#000000;
     background-image: url(../images/jpg/about_me_bg_image.jpg);
@@ -141,7 +141,7 @@ body{
     border-bottom: none;
 }
 
-/*####################################################*/
+/*#######################   SKILLS #############################*/
 .skills-wrapper{
     background-color:#000000;
     padding-top: 300px;
@@ -215,7 +215,7 @@ body{
     padding-top: 100px;
     margin-top: 50px;
 }
-/*############################################*/
+/*################# CONTACT  ###########################*/
 .contact-logo{
     /*padding-left: 100px;*/
     /*padding-top: 100px;*/
