@@ -144,7 +144,7 @@ body{
 /*####################################################*/
 .skills-wrapper{
     background-color:#000000;
-    padding-top: 100px;
+    padding-top: 300px;
     padding-left: 100px;
 }
 
@@ -165,12 +165,12 @@ body{
 .icon-skills{
     background-color:#000000;
     padding-left: 60px;
+    padding-bottom: 100px;
 }
 
 .icon{
     display: inline-block;
     margin-left: 40px;
-
 }
 
 .icon h4{
@@ -185,12 +185,8 @@ body{
     font-size: 18px;
     color:#ffffff;
     margin-top: 10px;
-
-    background-color: #548BC2;
     width: 300px;
 }
-
-
 
 .web-development {
     background-image: url(../images/png/icon_web_development.png);
