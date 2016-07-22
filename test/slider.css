@@ -1,0 +1,324 @@
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+/*##########################*/
+body{
+    margin: 0;
+}
+#banner{
+    width: 100%;
+    height: auto;
+}
+
+#page-header{
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: background-color 0.25s;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+/*##############################    LOGO    #################################*/
+.logo{
+    background-image: url(../wizytowka/images/png/logo_header.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+    width: 173px;
+    height:50px;
+    line-height:30px;
+    margin-left: 10px;
+}
+/*##############################    MENU    #################################*/
+.menu{
+
+    margin-top: 15px;
+}
+.menu li{
+    display: inline;
+}
+
+.menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 50px;
+    letter-spacing: 2px;
+    color: #5aff00;
+    font-family:'Gotham',sans-serif,arial;
+    font-weight: 400;
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+.banner-title{
+    background-color:#000000;
+    background-image: url(../images/jpg/header_bg_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    height: 600px;
+    padding-top:200px;
+    padding-left: 100px;
+}
+.banner-title h1{
+    color: white;
+    font-family:'Gotham',sans-serif,arial;
+    font-weight: bold;
+    font-size: 60px;
+
+}
+
+.banner-title h2{
+    font-size: 60px;
+    color: #5aff00;
+    font-family:'Gotham',sans-serif,arial;
+    font-weight: bold;
+}
+
+.banner-title h6{
+    margin-top: 10px;
+    color: #5aff00;
+    font-family:'Gotham',sans-serif,arial;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform:uppercase;
+}
+.banner-title h6 a{
+    text-decoration: none;
+    color: #5aff00;
+}
+/*##################    FEATURES    #############################*/
+.features-wrapper{
+    background-color:#000000;
+    background-image: url(../images/jpg/about_me_bg_image.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 841px;
+
+
+}
+.features-wrapper-page{
+    padding-top: 150px;
+    padding-left: 100px;
+}
+.features-wrapper h1{
+    font-family:'Gotham',sans-serif,arial;
+    font-weight: bold;
+    font-size: 60px;
+    color:#ffffff;
+}
+
+.features-wrapper h2{
+    font-family:'Gotham',sans-serif,arial;
+    font-weight: bold;
+    font-size: 60px;
+    color:#5aff00;
+}
+
+.features-wrapper p{
+    font-family:'Gotham',sans-serif,arial;
+    font-weight: 400;
+    font-size: 24px;
+    color:#ffffff;
+}
+
+.separator{
+    border: 2px solid #5aff00;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100px;
+    margin-top: 10px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+/*#######################   SKILLS #############################*/
+.skills-wrapper{
+    background-color:#000000;
+    padding-top: 300px;
+    padding-left: 100px;
+}
+
+.skills-wrapper h1{
+    font-family:'Gotham',sans-serif,arial;
+    font-weight: bold;
+    font-size: 60px;
+    color:#ffffff;
+}
+
+.skills-wrapper h2{
+    font-family:'Gotham',sans-serif,arial;
+    font-weight: bold;
+    font-size: 60px;
+    color:#5aff00;
+}
+
+.icon-skills{
+    background-color:#000000;
+    padding-left: 60px;
+    padding-bottom: 100px;
+}
+
+.icon{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.icon h4{
+    font-family:'Gotham',sans-serif,arial;
+    font-weight: bold;
+    font-size: 24px;
+    color:#5aff00;
+}
+.icon p{
+    font-family:'Gotham',sans-serif,arial;
+    font-weight: 400;
+    font-size: 18px;
+    color:#ffffff;
+    margin-top: 10px;
+    width: 300px;
+}
+
+.web-development {
+    background-image: url(../images/png/icon_web_development.png);
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    margin-top: 50px;
+}
+
+.web-service {
+    background-image: url(../images/png/icon_web_service.png);
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    margin-top: 50px;
+}
+
+.web-cosInnego {
+    background-image: url(../images/png/icon_web_application.png);
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    margin-top: 50px;
+}
+
+.web-cosInnego1 {
+    background-image: url(../images/png/icon_web_coding.png);
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    margin-top: 50px;
+}
+/*################# CONTACT  ###########################*/
+.contact-logo{
+    /*padding-left: 100px;*/
+    /*padding-top: 100px;*/
+    background-image: url(../images/png/logo_contact.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+    width: 100px;
+    height: 100px;
+
+}
+
+.contact-page{
+    height: 500px;
+    background-color: #000;
+    background-image: url(../images/jpg/contact_bg_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+    padding-left: 100px;
+    padding-top: 200px;
+
+}
+
+.contact-page h1{
+    font-family:'Gotham',sans-serif,arial;
+    font-weight: bold;
+    font-size: 60px;
+    color:#ffffff;
+}
+
+.contact-page h2{
+    font-family:'Gotham',sans-serif,arial;
+    font-weight: bold;
+    font-size: 60px;
+    color:#5aff00;
+}
+
+.contact-page p {
+    font-family:'Gotham',sans-serif,arial;
+    font-weight: 400;
+    font-size: 24px;
+    color:#5aff00;
+}
+p span{
+    color:white;
+
+}
+
+
+
+/*.przycisk{*/
+    /*width: 100px;*/
+    /*height: 100px;*/
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*left: 90%;*/
+    /*right: 10%;*/
+    /*top:50%;*/
+    /*background-color: darkred;*/
+
+/*}*/
+
+
+
+a{
+
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font: 72px Roboto;
+    color: #f8f8f8;
+}
+body{
+    overflow-x: hidden;
+}
+html, body,
+.box-wrapper{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: #342B7B;
+}
+.box-wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.box{
+    width: 100%;
+    height: 100%;}
+
+.blue{
+    background: #1881CB;
+}
+
+.red{
+    background: #AD3137;
+}
+
+.black{
+    background: #424242;
+}
