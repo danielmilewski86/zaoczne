@@ -61,10 +61,10 @@ body{
     background-color:#000000;
     background-image: url(../images/jpg/header_bg_image.jpg);
     background-repeat: no-repeat;
-    background-size: contain ;
-    background-position:right center ;
-    height: 500px;
-    padding-top:100px;
+    background-size: cover;
+    background-position: center bottom;
+    height: 600px;
+    padding-top:200px;
     padding-left: 100px;
 }
 .banner-title h1{
@@ -72,6 +72,7 @@ body{
     font-family:'Gotham',sans-serif,arial;
     font-weight: bold;
     font-size: 60px;
+
 }
 
 .banner-title h2{
@@ -95,17 +96,18 @@ body{
 }
 /*###############################################*/
 .features-wrapper{
-    background-color: #000000;
+    background-color:#000000;
     background-image: url(../images/jpg/about_me_bg_image.jpg);
     background-repeat: no-repeat;
     background-position: top center;
-    background-size: contain;
+    background-size: cover;
     height: 841px;
+
 
 }
 .features-wrapper-page{
     padding-top: 150px;
-    padding-left: 150px;
+    padding-left: 100px;
 }
 .features-wrapper h1{
     font-family:'Gotham',sans-serif,arial;
