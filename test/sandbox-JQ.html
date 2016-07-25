@@ -10,8 +10,48 @@
 <body>
 
 
-
+<p class="klikalny">Element 1</p>
+<p class="klikalny">Element 2</p>
+<p class="klikalny">Element 3</p>
+<p class="klikalny">Element 4</p>
+<p class="klikalny">Element 5</p>
+<p class="nie-klikalny">Element 6</p>
+<section id="daniel">daniel</section>
 
 <script src="JQ/jquery-3.1.0.min.js"></script>
+<script>
+
+//    var paragrafy = $('p.nie-klikalny');
+//
+//    paragrafy.hide();
+//    console.log(paragrafy);
+//###############################################
+//    $('.klikalny').dblclick(function () {
+//        $(this).hide();
+//    });
+//#################################################
+    $('section').click(function () {
+
+        $('section').removeClass('green-background');
+
+        $(this).addClass('green-background');
+
+
+    });
+
+//setTimeout(function(){ alert("Hello"); }, 3000);
+
+$("section").on("click", function(){
+    setTimeout( 2000);
+    $(this).prop("disabled", true);
+});
+
+
+
+
+
+
+
+</script>
 </body>
 </html>
