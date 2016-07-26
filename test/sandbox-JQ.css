@@ -1,3 +1,16 @@
 .green-background {
     background-color: greenyellow;
 }
+
+#nie-klikalny{
+    border: 3px solid black;
+    width: 300px;
+    background-color: #5aff00;
+}
+
+section{
+    background-color: #0e76a8;
+    border: 3px solid black;
+    width: 300px;
+}
+
