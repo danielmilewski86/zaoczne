@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+	<script>"use strict"</script>
+	<!-- style css -->
+	<!-- http://getbootstrap.com/components/ -->
+	<link href="public/vendors/bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet" media="all" />
+	<link href="public/css/basic.css" type="text/css" rel="stylesheet" media="all" />
+	
+	<!-- skrypty javascript -->
+	<!-- https://jquery.com/ -->
+	<script src="public/vendors/jquery/jquery-2.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+</head>	
+<body>
+	<div class="container">
+		<!-- ciało strony -->
+		<div class="container">
+			<div class="jumbotron">
+
+			
+				<!-- Zadanie #1 Begin -->
+				<div class="container">
+					<h2>Zadanie #1</h2>
+				</div>
+				<div id="exercise1">
+					<p>Zastanów się jakie dwie wartości zwróci poniższy skrypt i czym jest hoisting</p>
+					<pre>
+	<!--<script>-->
+
+var param = "Argument";
+
+console.log( runTask( "Argument inny" ) );
+console.log( task );
+
+var task = "Zadanie";
+function runTask( param ){
+
+var output = "Wywołuję " + param;
+return output;
+}
+						 w konsoli wychodzi " wywoluje argument inny" a pod nim  undefined. gdy przeniesiemy zmienna var task = "zadanie"
+                        na gore undefine znika. zmienne powinny byc deklarowane na poczatku. JS wczytuje kod linia po lini i console.log nie widzial
+                        na poczatku zmiennej i dlatego sie nie wykonal.
+
+						hoisting - przenoszenie deklaracji. deklaraowanie zmiennych na poczatku funkcji.
+
+	<!--</script>-->
+						<script>
+var param = "Argument";
+var task = "Zadanie";
+
+console.log( runTask( "Argument inny" ) );
+console.log( task );
+
+function runTask( param ){
+
+var output = "Wywołuję " + param;
+return output;
+}
+						</script>
+
+<!-- w konsoli wychodzi " wywoluje argument inny" a pod nim  undefined. gdy przeniesiemy zmienna var task = "zadanie"
+na gore undefine znika. zmienne powinny byc deklarowane na poczatku. JS wczytuje kod linia po lini i console.log nie widzial
+na poczatku zmiennej i dlatego sie nie wykonal.
+-->
+
+					</pre>
+				</div>
+				<!-- Zadanie #1 End -->
+
+				
+				<!-- Zadanie #2 Begin -->
+	<div class="container">
+		<h2>Zadanie #2</h2>
+	</div>
+	<div id="exercise2">
+		<p>Uzupełnij poniższy skrypt aby po uruchomieniu pokazał "Cześć [TwojeImię]"</p>
+		<!-- tylko nie wpisuj zamiast zmiennej "name" swojego imienia :) -->
+		<pre>
+			<!--<script>-->
+(function(){
+var name = "Daniel !!!"
+alert("Cześć " + name );
+
+})();
+			<!--</script>-->
+
+			<script>
+
+				(function(){
+					var name = "Daniel !!!"
+					alert("Cześć " + name );
+
+				})();
+
+			</script>
+		</pre>
+	</div>
+	<hr />
+				<!-- Zadanie #2 End -->
+
+	
+				<!-- Zadanie #3 Begin -->
+				<div class="container">
+					<h2>Zadanie #3*</h2>
+				</div>
+				<div id="exercise3">
+					<p>Uzupełnij selektor $('...') aby wskazywał na element zawierający tekst "He's the exact opposite of the hero."</p>
+					<div class="sandbox">
+						<div id="alamakota">
+							<ul>
+								<li>Ala ma psa bo pies ma pchły</li>
+								<li>
+									<p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? <span>He's the exact opposite of the hero.</span> And most times they're friends, like you and me! <span class="ishouldhaveknown">I should've known way back when...</span> You know why, David? Because of the kids. They called me Mr Glass.</p>
+								</li>
+								<li>Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.</li>
+							</ul>
+						</div>
+					</div>
+					<pre>
+					<!--<script>-->
+$("#alamakota li p ").text("He's the exact opposite of the hero.");
+					<!--</script>-->
+
+<script>
+
+	$("#alamakota li p ").text("He's the exact opposite of the hero.");
+
+</script>
+					</pre>
+				</div>
+				<hr />
+				<!-- Zadanie #3 End -->
+				
+	
+				<!-- Zadanie #4 Begin -->
+				<div class="container">
+					<h2>Zadanie #4*</h2>
+				</div>
+				<div id="exercise4">
+					<p>Uzupełnij funkcję sum() aby po kliknięciu "Uruchom skrypt" wyświetliła w polu z wynikiem sumę poniższych wartości.</p>
+					<div class="sandbox">
+						<input id="sumLeft" type="number" value="0" />
+						+
+						<input id="sumRight" type="number" value="0" />
+						=
+						<input id="sumResult" type="number" value="0" readonly />
+					</div>
+					<button onclick="sum()">Uruchom skrypt</button>
+					<pre>
+					<!--<script>-->
+function sum(){
+		var liczbaL = Number(document.getElementById("sumLeft").value) ;
+		var liczbaP = Number(document.getElementById("sumRight").value) ;
+
+		$( '#sumResult' ).val( liczbaL + liczbaP );
+	}
+					<!--</script>-->
+<script>
+
+	function sum(){
+		var liczbaL = Number(document.getElementById("sumLeft").value) ;
+		var liczbaP = Number(document.getElementById("sumRight").value) ;
+
+		$( '#sumResult' ).val( liczbaL + liczbaP );
+	}
+
+</script>
+					</pre>
+				</div>
+				<hr />
+				<!-- Zadanie #4 End -->
+
+				
+				<!-- Zadanie #5 Begin -->
+				<div class="container">
+					<h2>Zadanie #5**</h2>
+				</div>
+				<div id="exercise5">
+					<p>Uzupełnij funkcję adderMake aby wywołanie adderMake(3)(2) zwracało sumę argumentów równą 5</p>
+					<!-- podpowiedź
+					 jakiej wartości oczekujemy od funkcji adderMake aby można było od razu ją wywołać?
+					 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
+					 -->
+						<pre>
+					<!--<script>-->
+function adderMake(x) {
+	
+}
+					<!--</script>-->
+					</pre>
+				</div>
+				<hr />
+				<!-- Zadanie #5 End -->
+				
+
+			</div>
+		</div>
+		<!-- stopka -->
+        <footer>
+            &copy; 2016 iSA
+        </footer>
+    </div>
+</body>
+</html>
