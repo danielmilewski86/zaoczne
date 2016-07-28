@@ -184,12 +184,17 @@ function sum(){
 					 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
 					 -->
 						<pre>
-					<!--<script>-->
+					<script>
+
 function adderMake(x) {
-	
+	return function(y){
+		return x + y;
+	};
 }
 
-					<!--</script>-->
+console.log(adderMake(3)(2));
+
+					</script>
 					</pre>
 				</div>
 				<hr />
