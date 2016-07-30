@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<title>1.object</title>
+</head>
+<body>
+
+<div id="komunikaty"></div>
+
+<script>
+
+	/*******************************/
+	/*
+	 1. Stwórz obiekt i przypisz go do zmiennej grupa
+
+	 2. Dodaj do obiektu lib pola opisujące twój zespół
+	 - nazwę, liczbę osób
+
+	 3. Dodaj do obiektu funkcję whoAmI(), która zwróci
+	 informację o zespole i liczbie osób
+
+	 Wyświetl w dokumencie text zwracany przez funkcję whoAmI().
+
+	 */
+
+
+	var grupa = {
+
+		nazwa: 'RRRR',
+		liczba: 4,
+
+		whoAmI: function () {
+
+			return this.nazwa + ' ' + this.liczba;
+
+
+		}
+
+	};
+
+	console.log(grupa.whoAmI());
+
+
+</script>
+
+</body>
+</html>

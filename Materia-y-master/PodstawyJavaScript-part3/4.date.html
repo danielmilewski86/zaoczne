@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<title> 4.date </title>
+</head>
+<body>
+
+<script src="lib/jquery-2.1.4.min.js"></script>
+
+<div id="calendar"> </div>
+
+<div id="komunikaty"></div>
+
+<script>
+
+
+	var days = 30;
+
+//	var nowy= new Date();
+//
+//	var dzien = nowy.getDate();
+//	var miesiac = nowy.getMonth();
+//	var rok = nowy.getFullYear();
+//
+//	document.getElementById('calendar').innerHTML = dzien + '/' + miesiac + '/' + rok;
+
+
+	$(document).ready(function () {
+
+		var now = new Date();
+
+		for(var i = 0; i<=days; i++ ){
+
+
+			var $element = $('<p>').addClass('isa-day').text(now.toUTCSring());
+
+			$('#komunikaty').append($element);
+
+			now.setDate(now.getDate() + 1);
+
+		}
+
+	});
+
+//Nie dziala!!
+
+
+	/*******************************/
+	/*
+
+	 Musimy stworzyć zalążek kalendarza, który będzie pokazywał określoną liczbę dni
+	 naprzód, licząc od daty dzisiejszej.
+
+	 Kalendarz będzie znajdował się w elemencie div o id == 'calendar'
+
+	 Liczba dni naprzód jest wskazana w zmiennej days.
+
+	 Każdy dzień musi być reprezentowany przez element:
+
+	 <p class="isa-day"></p>
+
+	 Wewnątrz każdego z elementów musimy wyświetlić napis:
+	 - 'Dziś -- <tutaj_data>' - jeżeli jest to dzień dzisiejszy
+	 - 'Dziś + <n> - <tutaj_data>' - jeżeli jest to dzień późniejszy
+
+	 Do wypisania daty można użyć metody toDateString() z obiektu Date
+
+	 */
+	/*******************************/
+
+
+</script>
+
+</body>
+</html>
+
+<!--
+
+
+-->
