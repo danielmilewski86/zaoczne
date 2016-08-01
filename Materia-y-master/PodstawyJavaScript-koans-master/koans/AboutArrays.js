@@ -17,42 +17,42 @@ describe("About Arrays", function() {
 
   it("should understand array literals", function () {
     var array = [];
-    expect(array).toEqual([]);
+    expect(array).toEqual([]); //tablica jest pusta
 
     array[0] = 1;
-    expect(array).toEqual([1]);
+    expect(array).toEqual([1]); // w tablicy na pozycji zerowej jest 1
 
     array[1] = 2;
-    expect(array).toEqual([1, FILL_ME_IN]);
+    expect(array).toEqual([1,2]); // w tablicy na pozycji 1 jest 2
 
     array.push(3);
-    expect(array).toEqual(FILL_ME_IN);
+    expect(array).toEqual([1,2,3]); // dodaje 3 na pozycji 2
   });
 
   it("should understand array length", function () {
     var fourNumberArray = [1, 2, 3, 4];
 
-    expect(fourNumberArray.length).toBe(FILL_ME_IN);
-    fourNumberArray.push(5, 6);
-    expect(fourNumberArray.length).toBe(FILL_ME_IN);
+    expect(fourNumberArray.length).toBe(4); // w tablicy dlugosc 4
+    fourNumberArray.push(5, 6); // dodanie 5 i 6
+    expect(fourNumberArray.length).toBe(6); // w tablicy dlugosc 6
 
-    var tenEmptyElementArray = new Array(10);
-    expect(tenEmptyElementArray.length).toBe(FILL_ME_IN);
+    var tenEmptyElementArray = new Array(10); // tworzy nowy obiekt
+    expect(tenEmptyElementArray.length).toBe(10);
 
     tenEmptyElementArray.length = 5;
-    expect(tenEmptyElementArray.length).toBe(FILL_ME_IN);
+    expect(tenEmptyElementArray.length).toBe(5);
   });
 
   it("should slice arrays", function () {
-    var array = ["peanut", "butter", "and", "jelly"];
+    var array = ["peanut", "butter", "and", "jelly"]; //Metoda slice () zwraca wybrane elementy w tablicy jako nowy obiekt tablicy.
 
-    expect(array.slice(0, 1)).toEqual(FILL_ME_IN);
-    expect(array.slice(0, 2)).toEqual(FILL_ME_IN);
-    expect(array.slice(2, 2)).toEqual(FILL_ME_IN);
-    expect(array.slice(2, 20)).toEqual(FILL_ME_IN);
-    expect(array.slice(3, 0)).toEqual(FILL_ME_IN);
-    expect(array.slice(3, 100)).toEqual(FILL_ME_IN);
-    expect(array.slice(5, 1)).toEqual(FILL_ME_IN);
+    expect(array.slice(0, 1)).toEqual(["peanut"]);
+    expect(array.slice(0, 2)).toEqual(["peanut","butter"]);
+    expect(array.slice(2, 2)).toEqual([]);
+    expect(array.slice(2, 20)).toEqual(["and", "jelly"]);
+    expect(array.slice(3, 0)).toEqual([]);
+    expect(array.slice(3, 100)).toEqual(["jelly"]);
+    expect(array.slice(5, 1)).toEqual([]);
   });
 
   it("should know array references", function () {
@@ -60,6 +60,7 @@ describe("About Arrays", function() {
 
     function passedByReference(refArray) {
         refArray[1] = "changed in function";
+
     }
     passedByReference(array);
     expect(array[1]).toBe(FILL_ME_IN);
@@ -75,23 +76,23 @@ describe("About Arrays", function() {
 
   it("should push and pop", function () {
     var array = [1, 2];
-    array.push(3);
+    array.push(3); //dodanie 3 to tablicy jako nastepny numer
 
-    expect(array).toEqual(FILL_ME_IN);
+    expect(array).toEqual([1,2,3]);
 
-    var poppedValue = array.pop();
-    expect(poppedValue).toBe(FILL_ME_IN);
-    expect(array).toEqual(FILL_ME_IN);
+    var poppedValue = array.pop(); // usuniecie 3 z konca
+    expect(poppedValue).toBe(3);
+    expect(array).toEqual([1,2]);
   });
 
   it("should know about shifting arrays", function () {
     var array = [1, 2];
 
-    array.unshift(3);
-    expect(array).toEqual(FILL_ME_IN);
+    array.unshift(3); // dodanie 3 na poczatek tablicy
+    expect(array).toEqual([3, 1, 2]);
 
-    var shiftedValue = array.shift();
-    expect(shiftedValue).toEqual(FILL_ME_IN);
-    expect(array).toEqual(FILL_ME_IN);
+    var shiftedValue = array.shift(); // usuwa 3 z poczastku tablicy
+    expect(shiftedValue).toEqual(3);
+    expect(array).toEqual([1, 2]);
   });
 });
