@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+	<!-- style css -->
+	<!-- http://getbootstrap.com/components/ -->
+	<link href="public/vendors/bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet" media="all" />
+	<link href="public/css/basic.css" type="text/css" rel="stylesheet" media="all" />
+	
+	<!-- skrypty javascript -->
+	<!-- https://jquery.com/ -->
+	<script src="public/vendors/jquery/jquery-2.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<!-- http://getbootstrap.com/components/ -->
+	<script src="public/vendors/bootstrap/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+</head>	
+<body>
+	<div class="container">
+		<!-- pasek górnego menu -->
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="">jfdz praca domowa <span class="glyphicon glyphicon-home"></span></a>
+				</div>
+			</div>
+		</nav>
+		<!-- ciało strony -->
+		<div class="container">
+			<div class="jumbotron">
+			<br />
+
+				<div class="panel panel-default">
+					<div class="panel-heading"><h2>Powtórzenie</h2></div>
+					<div class="panel-body">
+					
+						<!-- Zadanie #1 Begin -->
+						<div class="container">
+							<h2>Zadanie #1</h2>
+						</div>
+						<div id="pexercise1">
+							<p>Uzupełnij funkcję findOptimus(n) która wypisze w konsoli wszystkie liczby pierwsze od 0 do n</p>
+							<button onclick="PExercise1.run(97)">Uruchom skrypt</button>
+							<pre>
+								<!--<script>-->
+var PExercise1 = {
+	findOptimus: function( n ){
+		// ......
+	},
+	run: function( n ){
+		console.warn('-- PExercise1 --');
+		this.findOptimus( n );
+	}
+}
+								<!--</script>-->
+							</pre>
+						</div>
+						<!-- Zadanie #1 End -->
+						
+						<!-- Zadanie #2 Begin -->
+						<div class="container">
+							<h2>Zadanie #2</h2>
+						</div>
+						<div id="pexercise2">
+							<p>Uzupełnij funkcję 'run' tak aby zmieniała co trzeci znak w tekście na wielką literę (upperCase)</p>
+							<!-- https://developer.mozilla.org/pl/docs/Web/JavaScript/Referencje/Obiekty/Array  -->
+							<button onclick="PExercise2.run()">Uruchom skrypt</button>
+							<pre>
+								<!--<script>-->
+var PExercise2 = {
+	textToUppercase: 'Wynik porównania pomiędzy regularnym wyrażeniem a łańcuchem znaków może utworzyć tablicę. Ta tablica ma własności i elementy, które przekazują informacje dotyczące porównania. Tablica jest wartością zwracaną przez RegExp.exec, String.match i String.replace.',
+	run: function( n ){
+		console.warn('-- PExercise2 --');
+		// ....
+		console.log( PExercise2.textToUppercase );
+	}
+}
+								<!--</script>-->
+							</pre>
+						</div>
+						<!-- Zadanie #2 End -->
+						
+						<!-- Zadanie #3 Begin -->
+						<div class="container">
+							<h2>Zadanie #3</h2>
+						</div>
+						<div id="pexercise3">
+							<p>Używając funkcji Array.prototype.map uzupełnij 'run' tak aby na każdym z elementów tablicy 'ppl' została użyta funkcja 'makeHappy' a wynik nadpisał dotychczasową tablicę 'ppl'</p>
+							<!-- https://developer.mozilla.org/pl/docs/Web/JavaScript/Referencje/Obiekty/Array  -->
+							<div class="sandbox"><!-- piaskownica --></div>
+							<button onclick="PExercise3.run()">Uruchom skrypt</button>
+							<pre>
+								<!--<script>-->
+var PExercise3 = {
+	ppl: ['Ala', 'Ela', 'Ula', 'Ola', 'Ewa', 'Iza', 'Ida', 'Iga'],
+	makeHappy: function(param){
+		return param + ' &#8226;&#7447;&#8226;';
+	},
+	run: function(){
+		console.warn('-- PExercise3 --');
+		// .......
+		$('#pexercise3 .sandbox').html( PExercise3.ppl.join( '<br />' ) )
+	}
+}
+								<!--</script>-->
+							</pre>
+						</div>
+						<!-- Zadanie #3 End -->
+						
+						<!-- Zadanie #4 Begin -->
+						<div class="container">
+							<h2 class="star">Zadanie #4</h2>
+						</div>
+						<div id="pexercise4">
+							<p>Bez używania forEach/for/while uzupełnij funkcję 'run' tak aby wypisała zawartość 'textToReverse' w konsoli od tyłu.</p>
+							<pre>
+								<!--<script>-->
+var PExercise5 = {
+	textToReverse: "możeJutroTaDamaDaTortuJeżom",
+	run: function(){
+		console.warn('-- PExercise4 --');
+		// .......
+		console.log( result );
+	}
+}
+								<!--</script>-->
+							</pre>
+						</div>
+						<!-- Zadanie #4 End -->
+					
+					</div>
+				</div>
+				
+				
+				<div class="panel panel-default">
+					<div class="panel-heading"><h2>Zabawa</h2></div>
+					<div class="panel-body">
+					
+						<!-- Zadanie #1 Begin -->
+						<div class="container">
+							<h2>Zadanie #1</h2>
+						</div>
+						<div id="exercise1">
+							<p>Exercise1.run wypisuje na kolorowo tekst z atrybutu Exercise1.colorfulText. Zmodyfikuj ten kod tak, aby uruchomił się od razu po załadowaniu strony i co 5 sekund.</p>
+							<div class="sandbox"><!-- piaskownica --></div>
+							<button onclick="Exercise1.run()">Uruchom skrypt</button>
+							<pre>
+							<!--<script>-->
+var Exercise1 = {
+	// nasz przykładowy tekst
+	colorfulText: "Litwo! Ojczyzno moja! Ty jesteś jak zdrowie, Ile cię trzeba cenić, ten tylko się dowie, Kto cię stracił. Dziś piękność twą w całej ozdobie Widzę i opisuję, bo tęsknię po tobie Panno święta, co Jasnej bronisz Częstochowy I w Ostrej świecisz Bramie! Ty, co gród zamkowy Nowogródzki ochraniasz z jego wiernym ludem! Jak mnie dziecko do zdrowia powróciłaś cudem...",
+	// przypiszmy naszą piaskownicę do atrybutu $sandbox żeby mieć ją zawsze pod ręką
+	$sandbox: $('#exercise1 .sandbox'),
+	// tu dzieje się cała magia
+	run: function(){
+		// czyścimy zawartość piaskownicy
+		this.$sandbox.empty();
+		// dla każdej litery w naszym tekście (split zamieni tekst na tablicę)
+		this.colorfulText.split("").map(function( element, index ){
+			// losujemy kolor
+			var color = Exercise1.getColor(),
+			// tworzymy nowy element span w którym ją umieszczamy
+			$letter = $('<span>').text(element).css({ color: color, opacity: 0 });
+			// dodajemy do piaskownicy i z odpowidnym opóźnieniem pokazujemy
+			Exercise1.$sandbox.append( $letter.delay( index * 10 ).animate( { opacity: 1 }, 500 ) );
+		});
+	},
+	getColor: function(){
+		// losujemy kolor wykorzystując opcjonalny argument funkcji toString który pozwala nam
+		// zamienić wartość numeryczną Math.random do innej reprezentacji, w naszym przypadku
+		// do postaci szesnastkowej, po czym odcinamy ostatnie 6 znaków (podanie wartości ujemnej
+		// znaczy tyle co "zacznij liczyć od końca")
+		return '#' + Math.random().toString(16).slice(-6);
+	}
+}
+							<!--</script>-->
+							</pre>
+						</div>
+						<!-- Zadanie #1 End -->
+						
+						<!-- Zadanie #2 Begin -->
+						<div class="container">
+							<h2>Zadanie #2</h2>
+						</div>
+						<div id="exercise2">
+							<p>Exercise2.run tworzy tarczę która pływa między brzegami piaskownicy. Zmodyfikuj kod tak aby po kliknięciu w tarczę licznik trafień się zwiększał</p>
+							<p>To zadanie możesz rozbić na mniejsze:
+								<ul>
+									<li>Stwórz miejsce do wyświetlania liczby trafień</li>
+									<li>Stwórz obiekt lub zmienną przechowującą ilość trafień</li>
+									<li>Przypisz do tarczy event click który zwiększy licznik trafień</li>
+								</ul>
+							</p>
+							<div class="sandbox"><!-- piaskownica --></div>
+							<button onclick="Exercise2.run()">Uruchom skrypt</button>
+							<pre>
+							<!--<script>-->
+var Exercise2 = {
+	// przypiszmy naszą piaskownicę do atrybutu $sandbox żeby mieć ją zawsze pod ręką
+	$sandbox: $('#exercise2 .sandbox'),
+	// to samo z naszą tarczą
+	$shield: $('#exercise2 .sandbox .shield'),
+	// tu dzieje się cała magia
+	run: function(){
+		// czyścimy zawartość piaskownicy (co się stanie jak zakomentujesz ten fragment?)
+		this.$sandbox.empty();
+		// dodajemy tarczę
+		this.$sandbox.append( $('<div>').addClass('shield') );
+	}
+}
+							<!--</script>-->
+							</pre>
+						</div>
+						<!-- Zadanie #2 End -->
+						
+						<!-- Zadanie #3 Begin -->
+						<div class="container">
+							<h2 class="star">Zadanie</h2>
+						</div>
+						<div id="exercise3">
+							<p>Zmodyfikuj powyższy skrypt i zamiast @keyframes do poruszania tarczą użyj jquery.animate (patrz Exercise1.run) a po każdym kliknięciu tarcza będzie poruszać się co raz szybciej <span class="glyphicon glyphicon-sunglasses"></span></p>
+						</div>
+						<!-- Zadanie #3 End -->
+					
+					</div>
+				</div>
+			
+
+			</div>
+		</div>
+		<!-- stopka -->
+        <footer>
+            &copy; 2016 iSA
+        </footer>
+    </div>
+</body>
+</html>
