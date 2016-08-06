@@ -1,0 +1,27 @@
+.flexible-media {
+    margin: 1em 0;
+}
+
+.flexible-media img, .flexible-media iframe {
+    max-width: 100%;
+    border: none;
+}
+
+.flexible-video-16-9{
+
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+
+}
+
+.flexible-video-16-9 > iframe{
+
+    border: 0;
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+
+}
