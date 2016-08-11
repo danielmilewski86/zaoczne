@@ -51,6 +51,37 @@ var PExercise1 = {
 	}
 }
 								<!--</script>-->
+								<script>
+var PExercise1 = {
+	findOptimus: function( n ){
+
+		var number = [];
+
+		function findOptimus(x) {
+
+			for(var i = 2; i<x; i++ ){
+				if(x % i === 0 ){
+					return false;
+				}
+
+			}
+			return true;
+		}
+
+		for(var j = 2; j<n; j++){
+			if(findOptimus(j)){
+				number.push(j);
+			}
+		}
+		console.log(number);
+
+	},
+	run: function( n ){
+		console.warn('-- PExercise1 --');
+		this.findOptimus( n );
+	}
+}
+								</script>
 							</pre>
 						</div>
 						<!-- Zadanie #1 End -->
