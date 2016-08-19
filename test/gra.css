@@ -1,0 +1,68 @@
+body{
+    background-color: lightgray;
+    margin: 0;
+
+}
+#container{
+    width: 100%;
+    height: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #46b8da;
+    border: 3px solid black;
+
+
+}
+.czerwony {
+    width:100px;
+    height:100px;
+    background-color: red;
+    margin-bottom:10px;
+    margin-left: 400px;
+
+}
+.zielony {
+    width:100px;
+    height:100px;
+    background-color: green;
+    display: block;
+}
+.czarny {
+    width:100px;
+    height:100px;
+    background-color: black;
+    margin-left: 300px;
+}
+#pierwszy {
+    animation:ruch 500ms steps(11) infinite, droga 2s infinite alternate;
+    -webkit-animation:ruch 500ms steps(14) infinite, droga 1s infinite alternate;
+}
+
+#drugi {
+    animation:ruch 500ms steps(11) infinite, droga 2s infinite alternate;
+    -webkit-animation:ruch 500ms steps(14) infinite, droga 2s infinite alternate;
+
+}
+#trzeci {
+    animation:ruch 500ms steps(11) infinite, droga 2s infinite alternate;
+    -webkit-animation:ruch 500ms steps(14) infinite, droga 2.3s infinite alternate;
+}
+
+/*-------------------ANIMACJE-------------------*/
+@keyframes ruch
+{
+    0% {background-position:0,0;}
+    100% {background-position:0 700px;}
+}
+
+@keyframes droga
+{
+    0% {transform:translateY(-500px)}
+    100% {transform:translateY(500px)}
+    50% {transform:translateX(-10px)}
+    60% {transform:translateX(-50px)}
+    35% {transform:translateX(30px)}
+    50% {transform:translateX(-10px)}
+
+}
+
