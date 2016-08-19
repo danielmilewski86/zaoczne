@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+	<!-- style css -->
+	<!-- http://getbootstrap.com/components/ -->
+	<link href="public/vendors/bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet" media="all" />
+	<link href="public/css/basic.css" type="text/css" rel="stylesheet" media="all" />
+	
+	<!-- skrypty javascript -->
+	<!-- https://jquery.com/ -->
+	<script src="public/vendors/jquery/jquery-2.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<!-- http://getbootstrap.com/components/ -->
+	<script src="public/vendors/bootstrap/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+</head>	
+<body>
+
+
+	<div class="container">
+		<!-- pasek górnego menu -->
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="">jfdz praca domowa <span class="glyphicon glyphicon-home"></span></a>
+				</div>
+			</div>
+		</nav>
+		<!-- ciało strony -->
+		<div class="container">
+			<div class="jumbotron">
+			<br />
+
+
+						<!-- Zadanie #1 Begin -->
+						<div class="container">
+							<h2>Zadanie #1</h2>
+						</div>
+						<div id="exercise1">
+							<p>Stwórz menu (struktura jak na obrazku, wygląd dowolny) które dla szerokości przeglądarki powyżej 640px będzie rysowane w poziomie a dla mniejszych w pionie.</p>
+							<p>
+								<img src="public/img/menu-horizontal.png" alt="H" />
+								<img src="public/img/menu-vertical.png" alt="V" />
+							</p>
+							<div class="ex1-menu">
+								<ol id="menu">
+									<li><a href="#">Home</a></li>
+									<li><a href="#">Gallery</a>
+										<ul>
+											<li><a href="#">Latest</a></li>
+											<li><a href="#">Archive</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Project</a></li>
+									<li><a href="#">About</a></li>
+									<li><a href="#">Contact</a></li>
+
+								</ol>
+
+							</div>
+							<div style="clear:both"></div>
+						</div>
+
+						<!-- Zadanie #1 End -->
+						
+						<!-- Zadanie #2 Begin -->
+						<div class="container">
+							<h2>Zadanie #2</h2>
+						</div>
+						<div id="exercise2">
+							<p>Uzupełnij funkcję run tak aby wyświetlała tabliczkę mnożenia od 1 do 10 w postaci:</p>
+<pre>
+1  2  3  4  ...
+2  4  6  8
+3  6  9  12
+4  8  12 16
+...
+</pre>
+<!-- Nie pisz statycznego wyświetlania, musi to być zrobione za pomocą pętli i dowolnej struktury html. -->
+							<button onclick="Exercise2.run()">Uruchom skrypt</button>
+							<pre>
+								<!--<script>-->
+var Exercise2 = {
+	run: function(){
+		console.warn('-- Exercise2 --');
+		// ....
+	}
+}
+								<!--</script>-->
+<table id="tabelka"></table>
+								<script>
+var Exercise2 = {
+	run: function(){
+		console.warn('-- Exercise2 --');
+
+		var table = document.getElementById('tabelka'); //pobieramy tabelkę
+
+		var tableHTML = ''; //rozpoczynamy generowanie kodu tabeli
+		//pierwsza petla
+		for (var i=1; i<=10; i++) {
+			// var tr = '<tr>'; //zaczynam tworzyć nowe tr
+			var tr = '';
+		//druga petla
+			for (var j=1; j<=10; j++) {
+				var liczba = j*i; //tworzymy tekst do wstawienia do komórki
+
+				if (i==1 || j==1) { //jeżeli jest to pierwsza komórka w pionie lub poziomie
+					var td = ' <th> ' + liczba + ' </th> '; //stwórz nowe th poziom
+				} else {
+					var td = ' <td> ' + liczba + ' </td> '; //stwórz nowe td pion
+				}
+
+				tr = tr + td; //wstaw komórkę do rzędu TR
+			}
+			tr = tr + ' </tr> '; //zakończ tworzenie rzędu
+
+			tableHTML = tableHTML + tr; //wstaw rząd do generowanego kodu HTML
+		}
+
+		table.innerHTML = tableHTML; //gotowy wygenerowany kod HTML wstawiamy do tabeli na stronie
+	}
+}
+								</script>
+							</pre>
+						</div>
+						<!-- Zadanie #2 End -->
+						
+						<!-- Zadanie #3 Begin -->
+						<div class="container">
+							<h2 class="star">Zadanie #3</h2>
+						</div>
+						<div id="exercise3">
+							<p>Uzupełnij funkcję run która pobierze od użytkownika liczbę od 1 do 100 i podświetli ją (pogrubi/zmieni kolor/tło...) na tablicy z poprzedniego zadania. W przypadku nieprawidłowej wartości powinniśmy dostać stosowną informację. Możesz wykorzystać okienko prompt lub zwykłe pole input.</p>
+							<div class="sandbox"><!-- piaskownica --></div>
+							<button onclick="Exercise3.run()">Uruchom skrypt</button>
+							<pre>
+								<!--<script>-->
+var Exercise3 = {
+	run: function(){
+		console.warn('-- Exercise3 --');
+		// .......
+	}
+}
+								<!--</script>-->
+							</pre>
+						</div>
+						<!-- Zadanie #3 End -->
+						
+						<!-- Zadanie #4 Begin -->
+						<div class="container">
+							<h2 class="star">Zadanie #4</h2>
+						</div>
+						<div id="exercise4">
+							<p>Uzupełnij funkcję run tak aby po uruchomieniu umieściła każde zdanie z poniższego tekstu w osobnym paragrafie &lt;p&gt;Ala ma kota bo pies ma pchły.&lt;/p&gt;</p>
+							<button onclick="Exercise4.run()">Uruchom skrypt</button>
+							<p class="ex4sandbox">
+							Według informacji zdobytych przez redakcję Electreku, która powołuje się na swoje źródła wewnątrz Tesli, wkrótce będzie miała miejsce premiera nowej wersji Autopilota, a więc mechanizmu, który częściowo zamienia samochody w pojazdy autonomiczne. Nowa wersja ma być znaczącym usprawnieniem, głównie w kwestii bezpieczeństwa.
+Autopilot 2.0 będzie wykorzystywał nowe czujniki, jakie będą instalowane w samochodach Tesla. Należeć będą do nich, między innymi, dodatkowy radar analizujący przestrzeń wokół samochodu i trzy obiektywy zainstalowane z przodu pojazdy. Do tej pory samochody miały tylko jeden obiektyw i radar analizujący przestrzeń tylko przed pojazdem, uzupełniony o czujnik ultrasoniczny. Autopilot 2.0 ma mieć też doskonalsze algorytmy sztucznej inteligencji.
+Na razie nie wiadomo kiedy Autopilot 2.0 trafi na rynek konsumencki.</p>
+							<pre>
+								<!--<script>-->
+var Exercise4 = {
+	run: function(){
+		console.warn('-- Exercise4 --');
+		// .......
+	}
+}
+								<!--</script>-->
+							</pre>
+						</div>
+						<!-- Zadanie #4 End -->
+					
+		</div>
+		<!-- stopka -->
+        <footer>
+            &copy; 2016 iSA
+        </footer>
+    </div>
+</body>
+</html>
