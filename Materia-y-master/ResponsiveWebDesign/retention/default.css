@@ -212,7 +212,7 @@ hr {
 }
 
 .container {
-	width: 1200px;
+	width: 100%;
 	margin: 0px auto;
 }
 
@@ -352,7 +352,7 @@ hr {
 #content
 {
 	float: right;
-	width: 790px;
+	width: 50%;
 }
 
 /*********************************************************************************/
@@ -362,7 +362,7 @@ hr {
 	#sidebar
 	{
 		float: left;
-		width: 345px;
+		width: 50%;
 	}
 	
 	#sidebar .title h2
