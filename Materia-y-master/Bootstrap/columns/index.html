@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Two Columns</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!--container-fluid robi 100% calej strony bez marginesow-->
+    <section>
+        <div class="container-fluid">
+
+            <div class="row">
+                <article class="content col-xs-12 col-sm-8">Content</article>
+                <aside class="sidebar col-xs-12 col-sm-4">Sidebar</aside>
+            </div>
+        </div>
+    </section>
+
+    <!--sam container zostawia automatyczne marginesy-->
+    <section>
+        <div class="container">
+            <div class="row"> <!--"row" -  marginesy na skrajach calego grida robi sie zero, ale bez contenera-->
+                <article class="content col-xs-12 col-sm-8">Content</article>
+                <aside class="sidebar col-xs-12 col-sm-4">Sidebar</aside>
+            </div>
+        </div>
+    </section>
+</body>
+
+<!--
+
+ZADANIE 1
+
+Zmodyfikuj szablon columns, tak aby content i sidebar były obok siebie w proporcji 2:1
+
+Kolumny powinny się degradować na smartphonach.
+
+Sprawdź różnice między .container a .fluid-container
+
+-->
