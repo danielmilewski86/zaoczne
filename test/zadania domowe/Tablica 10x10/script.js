@@ -15,8 +15,6 @@
 
 var zaznaczonyWiersz;
 
-// var zaznaczonyWiersz = $('td').eq(35).addClass('player');
-
 // funkcja definiująca co się będzie działo po kliknięciu na każdy element <tr>
 // znajdujący się w tabeli z atrybutem id #tabela
 $("#tabelka td").click(function()
@@ -31,20 +29,22 @@ $("#tabelka td").click(function()
 
 $(document).ready(function() {
     function WriteToLog(oEvent){
-        $("#log").append("Zdarzenie: <strong>" + oEvent.type +
-            "</strong>, kod przycisku: <strong>" +
-            oEvent.keyCode + "</strong><br />");
+        $("#tabelka").append(oEvent.type + oEvent.keyCode + "<br>");
+
     }
     $(window).bind("keydown", function(oEvent){
         WriteToLog(oEvent);
+
     });
     $(window).bind("keypress", function(oEvent){
         WriteToLog(oEvent);
     });
     $(window).bind("keyup", function(oEvent){
         WriteToLog(oEvent);
+
     });
 });
+//$('td').eq(35).addClass('player')
 
 // co się dzieje po kliknięciu na button o id #dodaj
 // $("#dodaj").click(function()
