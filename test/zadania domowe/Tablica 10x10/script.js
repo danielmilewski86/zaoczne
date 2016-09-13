@@ -13,37 +13,37 @@
 
 // zmienna trzymająca aktualnie zaznaczony wiersz tabeli, na początku niezdefiniowana
 
-var zaznaczonyWiersz;
-
-// funkcja definiująca co się będzie działo po kliknięciu na każdy element <tr>
-// znajdujący się w tabeli z atrybutem id #tabela
-$("#tabelka td").click(function()
-{
-    if (zaznaczonyWiersz) { // jeśli wcześniej był zaznaczony inny wiersz...
-        $(zaznaczonyWiersz).removeClass('zaznaczony'); // zlikwiduj zaznaczenie
-    }
-    // już wiemy, który wiersz został kliknięty, przypisz go do zmiennej
-    zaznaczonyWiersz = this;
-    $(this).addClass('zaznaczony');
-});
-
-$(document).ready(function() {
-    function WriteToLog(oEvent){
-        $("#tabelka").append(oEvent.type + oEvent.keyCode + "<br>");
-
-    }
-    $(window).bind("keydown", function(oEvent){
-        WriteToLog(oEvent);
-
-    });
-    $(window).bind("keypress", function(oEvent){
-        WriteToLog(oEvent);
-    });
-    $(window).bind("keyup", function(oEvent){
-        WriteToLog(oEvent);
-
-    });
-});
+// var zaznaczonyWiersz;
+//
+// // funkcja definiująca co się będzie działo po kliknięciu na każdy element <tr>
+// // znajdujący się w tabeli z atrybutem id #tabela
+// $("#tabelka td").click(function()
+// {
+//     if (zaznaczonyWiersz) { // jeśli wcześniej był zaznaczony inny wiersz...
+//         $(zaznaczonyWiersz).removeClass('zaznaczony'); // zlikwiduj zaznaczenie
+//     }
+//     // już wiemy, który wiersz został kliknięty, przypisz go do zmiennej
+//     zaznaczonyWiersz = this;
+//     $(this).addClass('zaznaczony');
+// });
+//
+// $(document).ready(function() {
+//     function WriteToLog(oEvent){
+//         $("#tabelka").append(oEvent.type + oEvent.keyCode + "<br>");
+//
+//     }
+//     $(window).bind("keydown", function(oEvent){
+//         WriteToLog(oEvent);
+//
+//     });
+//     $(window).bind("keypress", function(oEvent){
+//         WriteToLog(oEvent);
+//     });
+//     $(window).bind("keyup", function(oEvent){
+//         WriteToLog(oEvent);
+//
+//     });
+// });
 //$('td').eq(35).addClass('player')
 
 // co się dzieje po kliknięciu na button o id #dodaj
@@ -57,4 +57,18 @@ $(document).ready(function() {
 //     }
 // });
 
+$(document).ready(function () {
 
+    var nowyElement = $('<table border="1">').addClass('player');
+
+    var nowaTabela = $('<tr>');
+    var nowaTabela2 = $('<td>');
+    
+    $('#tabela').append(nowyElement);
+
+    
+
+    
+//http://kursjs.pl/kurs/super-podstawy/petle.php
+
+})
