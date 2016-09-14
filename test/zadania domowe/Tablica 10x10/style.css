@@ -1,9 +1,9 @@
 td{
+
+    border:1px solid black;
     padding: 20px;
+    border-radius: 5px;
 }
 .player{
-    background-color: red;
-}
-.zaznaczony{
     background-color: red;
 }
