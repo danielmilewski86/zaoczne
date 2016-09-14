@@ -3,6 +3,7 @@ td{
     border:1px solid black;
     padding: 20px;
     border-radius: 5px;
+    cursor: pointer;
 }
 .player{
     background-color: red;
