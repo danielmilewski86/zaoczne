@@ -42,14 +42,18 @@ Array.prototype.filter2 = function (predicate) {
     var result = [];
 
     for (var i = 0; i < this.length; i += 1) {
-        
-        result.push(predicate(this[i], i, this));
+
+        result.push(predicate(this[i]));
     }
 
     return result;
 };
 
+console.log(4,5,6,7,8);
 console.log([4,5,6,7,8].filter2(function(item){ return item > 2}));
+console.log([4,5,6,7,8].filter2(function(item){ return item < 2}));
+console.log(4,5,6,7,8);
+console.log([4,5,6,7,8].filter2(function(item){ return item < 5}));
 console.log([4,5,6,7,8].filter2(function(item){ return item > 5}));
 
 function isBigEnough(element, index, array) {
@@ -57,7 +61,7 @@ function isBigEnough(element, index, array) {
 }
 console.log(filtered = [12, 5, 8, 130, 44].filter(isBigEnough));
 
-
+//###########################################################################################################
 
 
 // var strings = ["hello", "Array", "WORLD"];
