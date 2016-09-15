@@ -18,6 +18,7 @@
 
 // transform - funkcja służąca do zamiany konkretnego elementu tablicy w trakcie iteracji
 //
+console.log('Funkcja map:');
 Array.prototype.map2 = function(transform) {
     var result = [];
 
@@ -32,9 +33,31 @@ Array.prototype.map2 = function(transform) {
 
 };
 
-
 console.log([1, 2, 3].map(function (item) { return item + 1; })); //-> [2, 3, 4]
 console.log([1, 2, 3].map2(function (item) { return item + " Testowy String"; })); //-> [2, 3, 4]
+//#############################################################################################################
+console.log('Funkcja filter:');
+
+Array.prototype.filter2 = function (predicate) {
+    var result = [];
+
+    for (var i = 0; i < this.length; i += 1) {
+        
+        result.push(predicate(this[i], i, this));
+    }
+
+    return result;
+};
+
+console.log([4,5,6,7,8].filter2(function(item){ return item > 2}));
+console.log([4,5,6,7,8].filter2(function(item){ return item > 5}));
+
+function isBigEnough(element, index, array) {
+    return (element >= 10);
+}
+console.log(filtered = [12, 5, 8, 130, 44].filter(isBigEnough));
+
+
 
 
 // var strings = ["hello", "Array", "WORLD"];
