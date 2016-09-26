@@ -66,6 +66,7 @@ body{
     height: 600px;
     padding-top:200px;
     padding-left: 100px;
+    width: 100%;
 }
 .banner-title h1{
     color: white;
@@ -99,15 +100,14 @@ body{
     background-color:#000000;
     background-image: url(../images/jpg/about_me_bg_image.jpg);
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position:  center;
     background-size: cover;
     height: 841px;
-
-
+    width: 100%;
+    padding-left: 100px;
 }
 .features-wrapper-page{
     padding-top: 150px;
-    padding-left: 100px;
 }
 .features-wrapper h1{
     font-family:'Gotham',sans-serif,arial;
@@ -144,8 +144,9 @@ body{
 /*#######################   SKILLS #############################*/
 .skills-wrapper{
     background-color:#000000;
-    padding-top: 300px;
+    padding-top: 50px;
     padding-left: 100px;
+    width: 100%;
 }
 
 .skills-wrapper h1{
@@ -164,13 +165,13 @@ body{
 
 .icon-skills{
     background-color:#000000;
-    padding-left: 60px;
+    padding-left: 100px;
     padding-bottom: 100px;
+    width: 100%;
 }
 
 .icon{
     display: inline-block;
-    margin-left: 40px;
 }
 
 .icon h4{
@@ -237,6 +238,7 @@ body{
     background-position: left center;
     padding-left: 100px;
     padding-top: 200px;
+    width: 100%;
 
 }
 
