@@ -65,14 +65,17 @@ body{
     background-position: center bottom;
     height: 600px;
     padding-top:200px;
-    padding-left: 100px;
+    /*padding-left: 100px;*/
     width: 100%;
+
 }
+
 .banner-title h1{
     color: white;
     font-family:'Gotham',sans-serif,arial;
     font-weight: bold;
     font-size: 60px;
+    padding-left: 100px;
 }
 
 .banner-title h2{
@@ -80,6 +83,7 @@ body{
     color: #5aff00;
     font-family:'Gotham',sans-serif,arial;
     font-weight: bold;
+    padding-left: 100px;
 }
 
 .banner-title h6{
@@ -89,6 +93,7 @@ body{
     font-weight: 400;
     font-size: 18px;
     text-transform:uppercase;
+    padding-left: 100px;
 }
 .banner-title h6 a{
     text-decoration: none;
@@ -103,7 +108,7 @@ body{
     background-size: cover;
     height: 841px;
     width: 100%;
-    padding-left: 100px;
+    /*padding-left: 100px;*/
 }
 .features-wrapper-page{
     padding-top: 150px;
@@ -113,6 +118,7 @@ body{
     font-weight: bold;
     font-size: 60px;
     color:#ffffff;
+    padding-left: 100px;
 }
 
 .features-wrapper h2{
@@ -120,6 +126,7 @@ body{
     font-weight: bold;
     font-size: 60px;
     color:#5aff00;
+    padding-left: 100px;
 }
 
 .features-wrapper p{
@@ -127,6 +134,7 @@ body{
     font-weight: 400;
     font-size: 24px;
     color:#ffffff;
+    padding-left: 100px;
 }
 
 .separator{
@@ -138,13 +146,14 @@ body{
     border-left: none;
     border-right: none;
     border-bottom: none;
+    margin-left: 100px;
 }
 
 /*#######################   SKILLS #############################*/
 .skills-wrapper{
     background-color:#000000;
     padding-top: 50px;
-    padding-left: 100px;
+    /*padding-left: 100px;*/
     width: 100%;
 }
 
@@ -153,6 +162,7 @@ body{
     font-weight: bold;
     font-size: 60px;
     color:#ffffff;
+    padding-left: 100px;
 }
 
 .skills-wrapper h2{
@@ -160,11 +170,12 @@ body{
     font-weight: bold;
     font-size: 60px;
     color:#5aff00;
+    padding-left: 100px;
 }
 
 .icon-skills{
     background-color:#000000;
-    padding-left: 100px;
+    /*padding-left: 100px;*/
     padding-bottom: 100px;
     width: 100%;
 }
@@ -193,6 +204,7 @@ body{
     background-repeat: no-repeat;
     padding-top: 100px;
     margin-top: 50px;
+    margin-left: 100px;
 }
 
 .web-service {
@@ -200,6 +212,7 @@ body{
     background-repeat: no-repeat;
     padding-top: 100px;
     margin-top: 50px;
+    margin-left: 100px;
 }
 
 .web-cosInnego {
@@ -207,6 +220,7 @@ body{
     background-repeat: no-repeat;
     padding-top: 100px;
     margin-top: 50px;
+    margin-left: 100px;
 }
 
 .web-cosInnego1 {
@@ -214,6 +228,7 @@ body{
     background-repeat: no-repeat;
     padding-top: 100px;
     margin-top: 50px;
+    margin-left: 100px;
 }
 /*################# CONTACT  ###########################*/
 .contact-logo{
@@ -224,6 +239,7 @@ body{
     background-position: left;
     width: 100px;
     height: 100px;
+    margin-left: 100px;
 }
 
 .contact-page{
@@ -232,8 +248,8 @@ body{
     background-image: url(../images/jpg/contact_bg_image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: left center;
-    padding-left: 100px;
+    background-position: bottom;
+    /*padding-left: 100px;*/
     padding-top: 250px;
     width: 100%;
 }
@@ -243,6 +259,7 @@ body{
     font-weight: bold;
     font-size: 60px;
     color:#ffffff;
+    padding-left: 100px;
 }
 
 .contact-page h2{
@@ -250,6 +267,7 @@ body{
     font-weight: bold;
     font-size: 60px;
     color:#5aff00;
+    padding-left: 100px;
 }
 
 .contact-page p {
@@ -257,6 +275,7 @@ body{
     font-weight: 400;
     font-size: 24px;
     color:#5aff00;
+    padding-left: 100px;
 }
 p span{
     color:white;
@@ -274,3 +293,4 @@ p span{
     background-color: #5aff00;
     border-radius: 10px;
 }
+
