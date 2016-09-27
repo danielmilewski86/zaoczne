@@ -104,7 +104,7 @@ body{
     background-color:#000000;
     background-image: url(../images/jpg/about_me_bg_image.jpg);
     background-repeat: no-repeat;
-    background-position:  center;
+    background-position: right;
     background-size: cover;
     height: 841px;
     width: 100%;
@@ -294,3 +294,12 @@ p span{
     border-radius: 10px;
 }
 
+@media only screen and (max-width: 1200px) {
+
+    .features-wrapper{
+
+        background-position: top right;
+        background-size: 1000px ;
+        height: 600px;
+    }
+}
