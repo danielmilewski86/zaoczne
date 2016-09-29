@@ -271,7 +271,39 @@ $(document).ready(function () {
 
 $(document).ready(function () {
 
+    //.html, .text - ustawienie i odczyt tekstu
+    //.val - odczyt/ustawienie wartosci w formularzach
+    //.empty - usuniecie wszystkich potopkow z elementu, sam element pozostaje
+    //.attr - odczyt/usuniecie atrybutow
+
+    //$('p:first').text('tak mozna wstawic <em>przykladowy tekst</em>do elementu.')
+
+    $('button:first').click(function () {
+
+        $('#wynik').text($('textarea').val() );
+
+    });
+
+    $('button#btnhtml').click(function () {
+
+        $('#wynik').html($('textarea').val() );
+
+    });
+
+    $('button:last').click(function () {
+
+        $('#wynik').empty();
+    });
+
+    // attr
+
+    //alert($('p').attr(class)); // odczyt trzeba podac atrybut (wpp. undefined)
+
+    // $('p').attr('class','gruby'); //ustawienie jednego atrybutu
+
+    // $('p').attr('class','gruby', id="pierwszyakapit") // ustawienie kilku atrybutow
     
+
 });
 
 
