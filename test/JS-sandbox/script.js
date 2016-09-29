@@ -276,6 +276,7 @@ $(document).ready(function () {
     //.empty - usuniecie wszystkich potopkow z elementu, sam element pozostaje
     //.attr - odczyt/usuniecie atrybutow
 
+    //zastapi tekst na stronie tekstem ktory jest wpisany
     //$('p:first').text('tak mozna wstawic <em>przykladowy tekst</em>do elementu.')
 
     $('button:first').click(function () {
