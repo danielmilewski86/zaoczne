@@ -266,6 +266,7 @@ $(document).ready(function () {
     //$('#abc').height(100);
 
 });
+// ZMIANA WYGLADU HTML ZEBY DZIALALO WSZYTSKO TRZEBA ODKOMETOWAC CZ.1
 //---------------modyfikacje tresci -----------------------
 
 $(document).ready(function () {
