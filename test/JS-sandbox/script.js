@@ -187,16 +187,56 @@ $(document).ready(function () {
 //-------------- filtry atrybutow -------------
 $(document).ready(function () {
 
-    //[nazwa-atrybutu] - element posiada dany atrybut
-    //[atrybut = 'dokladna tresc (uwaga na wielkosc znakow!)']
-    // [atrybut != 'tresc'] - bez takiego atrybutu lub ma inna tresc
+    //[nazwa-atrybutu] - element posiada dany atrybut //np. wpisjuemy alt od obrazka i zostaniee tylko on otoczony ramka
+    //[atrybut = 'dokladna tresc (uwaga na wielkosc znakow!)'] //np. wybieramy te elementy p ktore zawieraja klase tekst [class = 'tekst']
+    // [atrybut != 'tresc'] - bez takiego atrybutu lub ma inna tresc ////np. wybieramy te elementy p ktore NIE zawieraja klase tekst "p[class = 'tekst']"
     // [atrybut *= 'tresc'] - zawiera m.in dana tresc
     // [atrybut $= 'tresc'] i [atrybut ^= 'tresc'] - konczy/zaczyna sie dana tresc
     // [atrybut ~= 'tresc'] - zawiera cale slowo
     // [atrybut1 = 'tresc'][atrybut2 = 'tresc2'] - kilka atrybutow
 
-    var selektor = '[class]';
-    $(selektor).css('border','2px solid #abcdef');
+    // var selektor = "p[class != 'tekst']";
+    // $(selektor).css('border','2px solid #abcdef');
+    //
+    // $('body').prepend('<center><h1>$("'+selektor+'")</h1></center>');
+});
 
-    $('body').prepend('<center><h1>$("'+selektor+'")</h1></center>');
+//-------------------metody filtrujace------------------
+$(document).ready(function () {
+
+   //.first, .last, .eq()
+    //.not("abc") - usuwa podane elementy z zestawu
+    //.has("abc") - zwraca te z zestawu, ktore maja potomka podanego jako element
+    //.is("selektor") - zwraca true/false
+    //filter("selektor"); .filter(":first") - zwraca tylko elementy podane jako selektor
+    //.children - bezposredni potomek danego elementu
+    // .parent, .parensts - rodzic elementu / wszyscy przodkowie elementu
+    // .next, .prev - nastepny / poprzedni brat
+
+   // $("div").eq(0).css('border', '2px solid #abcdef');
+   // $("div").not('#otoczka').css('border', '2px solid #abcdef');
+   // $("div").has('h1').css('border', '2px solid #abcdef');
+
+    // if($('#abc p').is('.gruby')){
+    //     alert('gruby');
+    // }else{
+    //     alert('nie jest gruby');
+    // }
+    // $("p").filter('.gruby').css('border', '2px solid #abcdef');
+    // $("#otoczka").children().css('border', '2px solid #abcdef');
+    // $("#abc").parents().css('border', '2px solid #abcdef');
+    //  $("#abc").next().css('border', '2px solid #abcdef');
+    //  $("#abc").prev().css('border', '2px solid #abcdef');
+
+});
+
+//-------------------modefikacja CSS------------------
+$(document).ready(function () {
+
+    // .css - ustawienie i odczyt wartosci (odczyt: tylko nie skrocone wartosci css)
+    // .addClass('klasa'), .removeClass('klasa'), toggleClass('klasa')
+    //.hasClass - true / false
+    //.height, .width - ustawienie i odczyt w px innych jednostkach; zwiekszenie: +=20px
+
+    $('header').css('color','#ff0');
 });
