@@ -238,5 +238,51 @@ $(document).ready(function () {
     //.hasClass - true / false
     //.height, .width - ustawienie i odczyt w px innych jednostkach; zwiekszenie: +=20px
 
-    $('header').css('color','#ff0');
+    //zmiana naglowka na jakis zdefinoowany kolor
+    // $(':header').css('color','#ff0');
+
+    //nadanie kilku wlasciwosci css w tym wypadku nadanie czerwonej ramki i rozmiar czcionki
+    //$(':header').css({'color':'#ff0', 'border': '2px solid red', 'font-size': 40});
+
+    //dodanie klasy do pierwszego elementu p klasa gruby
+    // $('p:first').addClass('gruby');
+
+    //usuwa klase gruby z diva o id abc
+    // $('#abc p').removeClass('gruby');
+
+    //dodanie klikniecia do przelaczania klasy, toggle usuwa i dodaje po kliknieciu
+    // $('#abc p').click(function () {
+    //
+    //     $(this).toggleClass('gruby');
+    //         //zwieksza wysokosc po karzdym kliknieciu o 50px
+    //         $('#abc p').height('+=50px');
+
+            // sprawdza czy po kliknieciu klasa gruby wrocila i wyswietla alert
+            // if($(this).hasClass('gruby')){
+            //     alert('gruby');
+            // }
+    //});
+    //zmienia wysokosc na 100px
+    //$('#abc').height(100);
+
 });
+//---------------modyfikacje tresci -----------------------
+
+$(document).ready(function () {
+
+    
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
