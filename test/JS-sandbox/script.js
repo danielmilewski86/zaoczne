@@ -279,32 +279,41 @@ $(document).ready(function () {
     //zastapi tekst na stronie tekstem ktory jest wpisany
     //$('p:first').text('tak mozna wstawic <em>przykladowy tekst</em>do elementu.')
 
-    $('button:first').click(function () {
 
-        $('#wynik').text($('textarea').val() );
+    // po klkiknieciu na pierwszy przycisk wstawi nam wynik do diva o id wynik
+    //$('button:first').click(function () {
+    // za pomoca val pobieramy tekst wpisany w polu tekstowym
+    //     $('#wynik').text($('textarea').val() );
+    //
+    // });
+    //
+    // $('button#btnhtml').click(function () {
+    //
+    //     $('#wynik').html($('textarea').val() );
+    //
+    // });
+    //
+    // $('button:last').click(function () {
+    //
+    //     $('#wynik').empty();
+    // });
+    //
+    // // attr
+    //
+    // //alert($('p').attr('class')); // odczyt trzeba podac atrybut (wpp. undefined)
+    //
+    // //$('p:first').attr('class','gruby'); //ustawienie jednego atrybutu
+    //
+    // // $('p:first').attr('class','gruby', id="pierwszyakapit") // ustawienie kilku atrybutow
+    //
 
-    });
+});
+//-------------- Obsluga zdarzenia ------------------
 
-    $('button#btnhtml').click(function () {
-
-        $('#wynik').html($('textarea').val() );
-
-    });
-
-    $('button:last').click(function () {
-
-        $('#wynik').empty();
-    });
-
-    // attr
-
-    //alert($('p').attr(class)); // odczyt trzeba podac atrybut (wpp. undefined)
-
-    // $('p').attr('class','gruby'); //ustawienie jednego atrybutu
-
-    // $('p').attr('class','gruby', id="pierwszyakapit") // ustawienie kilku atrybutow
+$(document).ready(function () {
+//po kliknieciu na pierwszy przycisk chowa nam pole tekstowe do wpisywania tekstu, ponowne klikniecie pokazuje je
+    $('button:first').bind('click',function () {$('textarea').toggle('slow');})
     
-
 });
 
 
