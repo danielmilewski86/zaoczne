@@ -9,46 +9,8 @@
 
 <div id="app"></div>
 
-<script src="lib/jquery-2.1.4.min.js"></script>
-<script>
-
-    var size = 8;
-    $(document).ready(function () {
-
-        var $table = $('<table>').appendTo('#app'),
-            $row, $cell;
-
-        for(var rowNum = 0 ; rowNum < size ; rowNum++) {
-            $row = $('<tr>').appendTo($table);
-            for(var cellNum = 0 ; cellNum < size ; cellNum++) {
-                $cell = $('<td>').addClass('cell').appendTo($row);
-
-                // KOLOROWANIE TUTAJ
-                var isBlack = rowNum % 2 ? cellNum % 2 : !(cellNum % 2);
-
-                if (isBlack) {
-                    $cell.addClass('black')
-                            .attr('data-color', 'jestem czarny!!')
-                            .attr('data-kolejnoscBicia', 'bijemy drudzy =(');
-                } else {
-                    $cell.addClass('white').attr('data-color', 'jestem bialy!!');
-                }
-
-                $cell.click(function() {
-                    console.log(this.dataset.color, this.dataset.kolejnoscbicia);
-                })
-
-            }
-        }
-
-    });
-
-
-
-
-
-
-</script>
+<script src="../lib/jquery-2.1.4.min.js"></script>
+<script src="main.js"></script>
 
 </body>
 </html>
