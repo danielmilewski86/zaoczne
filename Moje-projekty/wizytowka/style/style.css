@@ -302,4 +302,20 @@ p span{
         background-size: 1000px ;
         height: 600px;
     }
+    .features-wrapper-page{
+        padding-top: 10px;
+    }
+    .features-wrapper h1{
+        font-size: 30px;
+    }
+    .features-wrapper h2{
+        font-size: 30px;
+    }
+
+    .features-wrapper p{
+        font-size: 18px;
+    }
+    .separator{
+        width: 50px;
+    }
 }
