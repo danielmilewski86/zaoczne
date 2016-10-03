@@ -238,5 +238,94 @@ $(document).ready(function () {
     //.hasClass - true / false
     //.height, .width - ustawienie i odczyt w px innych jednostkach; zwiekszenie: +=20px
 
-    $('header').css('color','#ff0');
+    //zmiana naglowka na jakis zdefinoowany kolor
+    // $(':header').css('color','#ff0');
+
+    //nadanie kilku wlasciwosci css w tym wypadku nadanie czerwonej ramki i rozmiar czcionki
+    //$(':header').css({'color':'#ff0', 'border': '2px solid red', 'font-size': 40});
+
+    //dodanie klasy do pierwszego elementu p klasa gruby
+    // $('p:first').addClass('gruby');
+
+    //usuwa klase gruby z diva o id abc
+    // $('#abc p').removeClass('gruby');
+
+    //dodanie klikniecia do przelaczania klasy, toggle usuwa i dodaje po kliknieciu
+    // $('#abc p').click(function () {
+    //
+    //     $(this).toggleClass('gruby');
+    //         //zwieksza wysokosc po karzdym kliknieciu o 50px
+    //         $('#abc p').height('+=50px');
+
+            // sprawdza czy po kliknieciu klasa gruby wrocila i wyswietla alert
+            // if($(this).hasClass('gruby')){
+            //     alert('gruby');
+            // }
+    //});
+    //zmienia wysokosc na 100px
+    //$('#abc').height(100);
+
 });
+// ZMIANA WYGLADU HTML ZEBY DZIALALO WSZYTSKO TRZEBA ODKOMETOWAC CZ.1
+//---------------modyfikacje tresci -----------------------
+
+$(document).ready(function () {
+
+    //.html, .text - ustawienie i odczyt tekstu
+    //.val - odczyt/ustawienie wartosci w formularzach
+    //.empty - usuniecie wszystkich potopkow z elementu, sam element pozostaje
+    //.attr - odczyt/usuniecie atrybutow
+
+    //zastapi tekst na stronie tekstem ktory jest wpisany
+    //$('p:first').text('tak mozna wstawic <em>przykladowy tekst</em>do elementu.')
+
+
+    // po klkiknieciu na pierwszy przycisk wstawi nam wynik do diva o id wynik
+    //$('button:first').click(function () {
+    // za pomoca val pobieramy tekst wpisany w polu tekstowym
+    //     $('#wynik').text($('textarea').val() );
+    //
+    // });
+    //
+    // $('button#btnhtml').click(function () {
+    //
+    //     $('#wynik').html($('textarea').val() );
+    //
+    // });
+    //
+    // $('button:last').click(function () {
+    //
+    //     $('#wynik').empty();
+    // });
+    //
+    // // attr
+    //
+    // //alert($('p').attr('class')); // odczyt trzeba podac atrybut (wpp. undefined)
+    //
+    // //$('p:first').attr('class','gruby'); //ustawienie jednego atrybutu
+    //
+    // // $('p:first').attr('class','gruby', id="pierwszyakapit") // ustawienie kilku atrybutow
+    //
+
+});
+//-------------- Obsluga zdarzenia ------------------
+
+$(document).ready(function () {
+//po kliknieciu na pierwszy przycisk chowa nam pole tekstowe do wpisywania tekstu, ponowne klikniecie pokazuje je
+    $('button:first').bind('click',function () {$('textarea').toggle('slow');})
+    
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
