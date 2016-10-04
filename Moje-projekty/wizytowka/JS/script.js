@@ -31,3 +31,10 @@ $(window).scroll(function()
         else $('.scrollup').fadeOut();
     }
 );
+
+$(document).ready(function () {
+
+    $('h6').bind('click',function () {
+        $('.banner-project').toggle('slow');
+    })
+});

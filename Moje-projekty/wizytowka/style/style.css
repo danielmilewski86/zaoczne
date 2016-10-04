@@ -110,6 +110,24 @@ body{
     width: 100%;
     /*padding-left: 100px;*/
 }
+.banner-project {
+    background-color: red;
+    display: none;
+    margin-left: 100px;
+
+}
+.project1{
+    float: left;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+.project2{
+    float: left;
+    width: 200px;
+    height: 200px;
+    background-color: saddlebrown;
+}
 .features-wrapper-page{
     padding-top: 150px;
 }
