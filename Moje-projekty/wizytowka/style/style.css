@@ -7,6 +7,9 @@
 .clear{
     clear: both;
 }
+a{
+    text-decoration: none;
+}
 /*##########################*/
 body{
     margin: 0;
@@ -322,6 +325,72 @@ p span{
     border-radius: 10px;
 }
 
+.modalDialog {
+    position: fixed;
+    display: none;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 99998;
+    opacity:1;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    /*pointer-events: none;*/
+}
+
+.modalDialog > div {
+    height:350px;
+    max-width:400px;
+    position: relative;
+    margin: 10% auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    background: #F88989;
+    box-shadow: 0px 7px 56px 1px rgba(248,137,137,0.77);
+    border-radius:10px;
+
+}
+.modalDialog > div h3{
+    text-align:center;
+    font-family:'Lora',Baskerville,serif;
+    font-weight:400;
+    font-size:20px;
+    padding-bottom:8px;
+    color:white;
+    letter-spacing:2px;
+}
+.modalDialog > div p{
+    text-align:center;
+    color:white;
+    font-family:'Lora',Baskerville,serif;
+    font-weight:400;
+    font-style:italic;
+    font-size:14px;
+    line-height:22px;
+    padding-bottom:22px;
+    opacity:0.7;
+}
+
+.close {
+    background-image:url('../images/png/icon-close.png');
+    background-repeat:no-repeat;
+    background-size:contain;
+    height:35px;
+    width:35px;
+    line-height: 25px;
+    position: absolute;
+    right: 11px;
+    text-align: center;
+    top: 10px;
+}
+
+.close:hover { opacity:0.5; }
+
 @media only screen and (max-width: 1200px) {
 
     .features-wrapper{
@@ -346,4 +415,7 @@ p span{
     .separator{
         width: 50px;
     }
+}
+a{
+    text-decoration: none;
 }

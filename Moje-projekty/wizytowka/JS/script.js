@@ -2,12 +2,13 @@
  * Created by DanielM on 2016-07-21.
  */
 
-// $('a').click(function(){
-//     $('html, body').animate({
-//         scrollLeft: $( $(this).attr('href') ).offset().left
-//     }, 500);
-//     return false;
-// });
+closeModal = function() {
+    $('#openModal').hide();
+};
+
+openModal = function() {
+    $('#openModal').show();
+};
 
 jQuery(function($)
     {
@@ -38,3 +39,4 @@ $(document).ready(function () {
         $('.banner-project').toggle('slow');
     })
 });
+
