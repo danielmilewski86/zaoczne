@@ -111,16 +111,25 @@ body{
     /*padding-left: 100px;*/
 }
 .banner-project {
-    background-color: red;
     display: none;
     margin-left: 100px;
-
+    margin-top: 20px;
 }
 .project1{
     float: left;
     width: 200px;
     height: 200px;
-    background-color: green;
+    background-color: #F76C6C;
+    border-radius: 5px;
+}
+.project1:hover{
+    opacity: 0.9;
+}
+.bg-img1{
+    background-image: url('../images/png/Lora.png');
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: center;
 }
 .project2{
     float: left;
@@ -128,6 +137,7 @@ body{
     height: 200px;
     background-color: saddlebrown;
 }
+
 .features-wrapper-page{
     padding-top: 150px;
 }
