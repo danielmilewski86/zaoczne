@@ -72,8 +72,8 @@
     <div class="icon-skills">
         <div class="icon web-development">
             <h4>Web<br> development</h4>
-            <div class="modelSkills close">
-               <p>Daniel</p>
+            <div class="modelSkills">
+               <p>Now I'm improving my skills as Junior Front-end Developer at Infoshare Academy course.</p>
             </div>
                 <p>
                     Lorem Ipsum cos tam cos..
@@ -84,7 +84,8 @@
         <div class="icon web-service">
             <h4>Web<br> service</h4>
             <div class="modelSkills1">
-                <p>Daniel Milewski</p>
+                <p>Create projects in HTML, CSS, JavaScript</p>
+                <p>Frameworka Twitter Bootstrap, library jQuare</p>
             </div>
                 <p>
                     Lorem Ipsum cos tam cos..
@@ -93,9 +94,11 @@
                 </p>
         </div>
         <div class="icon web-cosInnego">
-            <h4>Web<br> coś innego</h4>
+            <h4>Web<br> tooles</h4>
             <div class="modelSkills2">
-                <p>Daniel Daniel Daniel</p>
+                <p>Front-end Developer tools (Webstorm, Github,Chrome dev tools)</p>
+                <p>Project management software: Jira</p>
+                <p>Project and team management methodology - Agile and Scrum</p>
             </div>
                 <p>
                     Lorem Ipsum cos tam cos..
@@ -126,8 +129,39 @@
             <div class="separator"></div>
 
             <p><span>Drop me a line:</span></p>
-            <p>Daniel.Milewski86@wp.pl</p>
+        <a href="#openModal" onclick="openModal()"><p>Daniel.Milewski86@wp.pl</p></a>
     </div>
 </section>
+
+<!--#####################Modal Window#############################-->
+<div id="openModal" class="modalDialog">
+    <div>
+        <div class="close" onclick="closeModal()"></div>
+        <h3>Drop me a line</h3>
+        <p>Daniel.Milewski86@wp.pl</p>
+        <form id="formularz" action="">
+            <label for="name-field">Name</label>
+            <input id="name-field"
+                   name="nameFirst"
+                   required
+                   pattern="[A-Z]{5[0-9{5}"
+                   title=" "
+                   type="text"/>
+            <div class="clear"></div>
+            <label for="email-field">E-mail</label>
+            <input type="email" id="email-field" name="adressFirst"
+                   required
+                   pattern="[A-Z]{5[0-9{5}"
+                   title=" "
+            />
+            <div class="clear"></div>
+            <label><input type="checkbox" name="remember" value="1">Nie jestem robotem :)</label>
+            <input type="submit" id="guzik" value="send" onclick="sprawdz_formularz()">
+
+            <div class="komunikat"><h3>Dziekuje za wysłanie formularza :)</h3></div>
+            <div class="komunikat2"><h3>Nie zaznaczyłeś pola :)</h3></div>
+        </form>
+    </div>
+</div>
 </body>
 </html>
