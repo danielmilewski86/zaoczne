@@ -1,15 +1,6 @@
 /**
  * Created by DanielM on 2016-07-21.
  */
-
-closeModal = function() {
-    $('#openModal').hide();
-};
-
-openModal = function() {
-    $('#openModal').show();
-};
-
 jQuery(function($)
     {
         //zresetuj scrolla
@@ -40,3 +31,17 @@ $(document).ready(function () {
     })
 });
 
+$(document).ready(function () {
+    $('.web-development').click(function () {
+        $('.modelSkills').toggle('slow');
+    });
+    $('.web-service').click(function () {
+        $('.modelSkills1').toggle('slow');
+    });
+    $('.web-cosInnego').click(function () {
+        $('.modelSkills2').toggle('slow');
+    });
+    $('.web-cosInnego1').click(function () {
+        $('.modelSkills3').toggle('slow');
+    });
+});
