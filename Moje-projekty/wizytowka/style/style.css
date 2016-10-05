@@ -97,6 +97,7 @@ body{
     font-size: 18px;
     text-transform:uppercase;
     padding-left: 100px;
+    cursor: pointer;
 }
 .banner-title h6 a{
     text-decoration: none;
@@ -305,6 +306,7 @@ body{
     left: 30%;
     right: 30%;
 }
+
 /*################# CONTACT  ###########################*/
 .contact-logo{
     /*padding-left: 100px;*/
