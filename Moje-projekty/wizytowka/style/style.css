@@ -123,6 +123,7 @@ body{
     width: 200px;
     height: 200px;
     background-color: #F76C6C;
+    box-shadow: 5px 5px 35px 5px rgba(90,255,0,0.77);
     border-radius: 5px;
 }
 .project1:hover{
@@ -518,7 +519,7 @@ input[type=checkbox]{
 .komunikat{
     width: 400px;
     height: 350px;
-    background-color: darkslategray;
+    background-color: #1e1e1e;
     border-radius:10px;
     opacity: 0.9;
     display: none;
@@ -535,7 +536,7 @@ input[type=checkbox]{
 .komunikat2{
     width: 400px;
     height: 350px;
-    background-color: darkslategray;
+    background-color: #1e1e1e;
     border-radius:10px;
     opacity: 0.9;
     display: none;
