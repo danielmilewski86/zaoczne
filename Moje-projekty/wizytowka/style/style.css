@@ -123,7 +123,7 @@ body{
     width: 200px;
     height: 200px;
     background-color: #F76C6C;
-    box-shadow: 5px 5px 35px 5px rgba(90,255,0,0.77);
+
     border-radius: 5px;
 }
 .project1:hover{
@@ -262,55 +262,6 @@ body{
     margin-top: 50px;
     margin-left: 100px;
 }
-.modelSkills{
-    width: auto;
-    height: 200px;
-    background: #000000;
-    border-radius: 8px;
-    box-shadow: 0px 7px 56px 1px rgba(90,255,0,0.77);
-    display: none;
-    position: absolute;
-    left: 30%;
-    right: 30%;
-}
-.modelSkills1{
-    width: auto;
-    height: 200px;
-    background: #000000;
-    border-radius: 8px;
-    box-shadow: 0px 7px 56px 1px rgba(90,255,0,0.77);
-    display: none;
-    position: absolute;
-    left: 30%;
-    right: 30%;
-}
-.modelSkills2{
-    width: auto;
-    height: 200px;
-    background: #000000;
-    border-radius: 8px;
-    box-shadow: 0px 7px 56px 1px rgba(90,255,0,0.77);
-    display: none;
-    position: absolute;
-    left: 30%;
-    right: 30%;
-}
-.modelSkills p, .modelSkills1 p, .modelSkills2 p{
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-.modelSkills3{
-    width: auto;
-    height: 200px;
-    background: #000000;
-    border-radius: 8px;
-    box-shadow: 0px 7px 56px 1px rgba(90,255,0,0.77);
-    display: none;
-    position: absolute;
-    left: 30%;
-    right: 30%;
-}
 
 /*################# CONTACT  ###########################*/
 .contact-logo{
@@ -404,7 +355,6 @@ p span{
     justify-content:center;
     flex-direction: column;
     background: #000;
-    box-shadow: 0px 7px 56px 1px rgba(90,255,0,0.77);
     border-radius:10px;
 
 }

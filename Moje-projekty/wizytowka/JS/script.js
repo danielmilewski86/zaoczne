@@ -38,20 +38,7 @@ $(document).ready(function () {
     })
 });
 
-$(document).ready(function () {
-    $('.web-development').click(function () {
-        $('.modelSkills').toggle('slow');
-    });
-    $('.web-service').click(function () {
-        $('.modelSkills1').toggle('slow');
-    });
-    $('.web-cosInnego').click(function () {
-        $('.modelSkills2').toggle('slow');
-    });
-    $('.web-cosInnego1').click(function () {
-        $('.modelSkills3').toggle('slow');
-    });
-});
+
 
 function sprawdz_formularz()
 {
