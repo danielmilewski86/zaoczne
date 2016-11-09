@@ -526,4 +526,13 @@ input[type=checkbox]{
     .separator{
         width: 50px;
     }
+    .icon-skills{
+        display: inline-block;
+        text-align: center;
+    }
+    .icon{
+        text-align: center;
+        display: inline-block;
+        background-position-x:center ;
+    }
 }
