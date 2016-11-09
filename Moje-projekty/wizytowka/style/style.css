@@ -111,7 +111,6 @@ body{
     background-size: cover;
     height: 841px;
     width: 100%;
-    /*padding-left: 100px;*/
 }
 .banner-project {
     display: none;
@@ -120,20 +119,24 @@ body{
 }
 .project1{
     float: left;
-    width: 200px;
-    height: 200px;
-    background-color: #F76C6C;
-
+    width: 100px;
+    height: 100px;
+    /*background-color: #000;*/
     border-radius: 5px;
+}
+@keyframes bg-img1 {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
 }
 .project1:hover{
     opacity: 0.9;
 }
 .bg-img1{
-    background-image: url('../images/png/Lora.png');
+    background-image: url('../images/png/Lora_more.png');
     background-repeat: no-repeat;
     background-size: 80px;
     background-position: center;
+    animation: bg-img1 infinite 20s linear;
 }
 .project2{
     float: left;
@@ -206,7 +209,6 @@ body{
 
 .icon-skills{
     background-color:#000000;
-    /*padding-left: 100px;*/
     padding-bottom: 100px;
     width: 100%;
 }
@@ -265,8 +267,6 @@ body{
 
 /*################# CONTACT  ###########################*/
 .contact-logo{
-    /*padding-left: 100px;*/
-    /*padding-top: 100px;*/
     background-image: url(../images/png/logo_contact.png);
     background-repeat: no-repeat;
     background-position: left;
@@ -282,7 +282,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-    /*padding-left: 100px;*/
     padding-top: 250px;
     width: 100%;
 }
@@ -523,6 +522,19 @@ input[type=checkbox]{
     .features-wrapper p{
         font-size: 18px;
     }
+    .banner-title{
+        background-position: top right;
+        background-size: 1000px;
+    }
+    .banner-title h1{
+        font-size: 50px;
+    }
+    .banner-title h2{
+        font-size: 50px;
+    }
+    .banner-title h6{
+        font-size: 15px;
+    }
     .separator{
         width: 50px;
     }
@@ -534,5 +546,6 @@ input[type=checkbox]{
         text-align: center;
         display: inline-block;
         background-position-x:center ;
+        margin-left: 0;
     }
 }
