@@ -123,7 +123,9 @@ ul > li{
 }
 
 .book-content{
-    width: 1000px;
+    width: 100%;
+    font-size: 0;
+    text-align: center;
     background-color: bisque;
     margin-right: auto;
     margin-left: auto;
@@ -132,43 +134,45 @@ ul > li{
 
 .book-title-1{
     background-color: gold;
-    width: 400px;
-    height: 400px;
-    float: left;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    text-align: center;
+
 
 }
 
 .book-title-2{
     background-color: green;
-    width: 400px;
-    height: 400px;
-    float: right;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
 }
 
 .book-title-3{
     background-color: yellow;
-    width: 200px;
-    height: 200px;
-    float: left;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
 }
 
 .book-title-4{
     background-color: red;
-    width: 200px;
-    height: 200px;
-    float: right;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
 }
 
 .book-title-5{
     background-color: greenyellow;
-    width: 200px;
-    height: 200px;
-    float: left;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
 }
 
 .book-title-6{
     background-color: aqua;
-    width: 200px;
-    height: 200px;
-    float: right;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
 }
