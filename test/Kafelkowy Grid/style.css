@@ -119,3 +119,48 @@ body {
 
 }
 
+p{
+    position: absolute;
+    transform: rotate(-45deg);
+}
+
+.title1{
+    width: 200px;
+    height: 200px;
+    background-color: #000000;
+    border-radius: 50%;
+   margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    transform:perspective(200px) rotateY(35deg);
+
+}
+.title2{
+    width: 150px;
+    height: 150px;
+    background-color: #101010;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+
+}
+
+.title3{
+    width: 100px;
+    height: 100px;
+    background-color: #202020;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+}
+
+.title4{
+    width: 50px;
+    height: 50px;
+    background-color: #303030;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
