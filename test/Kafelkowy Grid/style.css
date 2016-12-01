@@ -58,3 +58,56 @@ body {
     background-color: rgba(255, 255, 255, 0.3);
     display: inline-block;
 }
+
+.diamond-big {
+    width: 25%;
+    padding-bottom: 25%;
+    background-color: rgba(255, 255, 255, 0.6);
+    display: inline-block;
+}
+
+#diamond1 {
+    position: absolute;
+    top: 25%;
+    left: 10.5%;
+}
+#diamond2 {
+    position: absolute;
+    top: 25%;
+    left: 24%;
+}
+#diamond3 {
+    position: absolute;
+    top: 11.5%;
+    left: 37.5%;
+}
+#diamond4 {
+    position: absolute;
+    top: 38.5%;
+    left: 24%;
+}
+#diamond5 {
+    position: absolute;
+    top: 38.5%;
+    left: 51%;
+}
+#diamond6 {
+    position: absolute;
+    top: 52%;
+    left: 51%;
+}
+#diamond7 {
+    position: absolute;
+    top: 38.5%;
+    left: 64.5%;
+}
+#diamond8 {
+    position: absolute;
+    top: 65.5%;
+    left: 51%;
+}
+#diamond9 {
+    position: absolute;
+    top: 65.5%;
+    left: 64.5%;
+}
