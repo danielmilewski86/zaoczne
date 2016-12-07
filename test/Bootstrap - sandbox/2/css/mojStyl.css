@@ -1,0 +1,33 @@
+/* Class */
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Usage as a mixin */
+.element {
+.center-block();
+}
+
+
+   .pull-left {
+       float: left !important;
+   }
+.pull-right {
+    float: right !important;
+}
+
+
+   .element {
+   .pull-left();
+   }
+.another-element {
+.pull-right();
+}
+
+@gray-darker:  lighten(#000, 13.5%);
+@gray-dark:    lighten(#000, 20%);
+@gray:         lighten(#000, 33.5%);
+@gray-light:   lighten(#000, 46.7%);
+@gray-lighter: lighten(#000, 93.5%);
