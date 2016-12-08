@@ -7,6 +7,8 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/mojeStyle.css">
 
+
+
     <title>Bootstrap</title>
 
 </head>
@@ -30,9 +32,9 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav pull-right text-uppercase">
-                <li><a href="#about">About</a></li>
-                <li><a href="#">Skill</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a id="Link1" href="#about">About</a></li>
+                <li><a id="Link2" href="#skills">Skill</a></li>
+                <li><a id="Link3" href="#contact">Contact</a></li>
 
             </ul>
 
@@ -120,9 +122,37 @@
     </div>
 </div>
 
+<script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
+<script>
+    window.sr = ScrollReveal();
+    sr.reveal('.icon', {
+        reset: true,
+        delay: 300,
+        distance: 0
+    });
+    sr.reveal('h1, h2, p', {
+        reset: true,
+        delay: 300
+    });
+</script>
+
+<!--<script>-->
+    <!--jQuery(function($)-->
+            <!--{-->
+                <!--//zresetuj scrolla-->
+                <!--$.scrollTo(0);-->
+
+                <!--$('#Link').click(function() { $.scrollTo($('#banner'), 500); });-->
+                <!--$('#Link1').click(function() { $.scrollTo($('#about'), 500); });-->
+                <!--$('#Link2').click(function() { $.scrollTo($('#skills'), 500); });-->
+                <!--$('#Link3').click(function() { $.scrollTo($('#contact'), 500); });-->
 
 
-
+                <!--$('.scrollup').click(function() { $.scrollTo($('body'), 1000); });-->
+            <!--}-->
+    <!--);-->
+<!--</script>-->
+<!--TRZEBA PODPIAC JQ I SCIAGNAC -->
 <script src="http://code.jquery.com/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 </body>

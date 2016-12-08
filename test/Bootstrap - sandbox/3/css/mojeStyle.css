@@ -23,6 +23,10 @@ h4{
     padding-top: 5px;
     padding-bottom: 0;
 }
+.navbar-inverse {
+    background-color: #000000;
+    opacity: 0.5;
+}
 .banner{
     padding: 0;
 }
