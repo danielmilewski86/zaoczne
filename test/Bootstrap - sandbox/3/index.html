@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/mojeStyle.css">
+    <script type="text/javascript" src="jQ/jquery-3.1.0.min.js" ></script>
+    <script type="text/javascript" src="jQ/jquery.scrollTo.min.js" ></script>
+
+
+
+
+    <title>Bootstrap</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a id="Link" class="navbar-brand text-uppercase" href="#banner">
+                <img src="img/png/logo_header.png" alt="Daniel Milewski">
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav pull-right text-uppercase">
+
+                <li><a id="Link1" href="#about">About</a></li>
+                <li><a id="Link2" href="#skills">Skill</a></li>
+                <li><a id="Link3" href="#contact">Contact</a></li>
+
+            </ul>
+
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+
+</nav>
+<div class="container-fluid">
+    <div class="row">
+        <div class="banner col-lg-12">
+            <div class="banner-bg">
+                <div id="banner" class="banner-title">
+                    <h2><strong>The</strong></h2>
+                    <h3><strong>best time and place</strong></h3>
+                    <h2><strong>to start your project</strong></h2>
+                    <p>what more?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="banner col-lg-12">
+            <div class="banner-about-bg">
+                <div id="about" class="banner-title-about col-xs-9">
+                    <h2><strong>Hello!</strong></h2>
+                    <h3><strong>I'm Daniel</strong></h3>
+                    <div class="separator"></div>
+                    <p>I'm Front End Developer with Junior<br> level experience.
+                       My mission is to achiev<br> your dreams and goals together
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="banner">
+            <div class="banner-skills-bg">
+                <div id="skills" class="banner-title-skills">
+                    <h2><strong>My</strong></h2>
+                    <h3><strong>Skills</strong></h3>
+                    <div class="separator"></div>
+                </div>
+                <!--galeria-->
+                    <div class="galleria">
+                    <div class="col-xs-6 col-md-3">
+                        <a href="#" class="img-rounded">
+                            <img src="img/png/icon_web_application.png" alt="...">
+                        </a>
+                        <h4>Web Tools</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae sem nunc.
+                           Nulla orci ante, eleifend vestibulum consequat id, scelerisque ac tortor.</p>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <a href="#" class="img-rounded">
+                            <img src="img/png/icon_web_coding.png" alt="...">
+                        </a>
+                        <h4>Web Cos tam</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae sem nunc.
+                           Nulla orci ante, eleifend vestibulum consequat id, scelerisque ac tortor.</p>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <a href="#" class="img-rounded">
+                            <img src="img/png/icon_web_development.png" alt="...">
+                        </a>
+                        <h4>Web Development</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae sem nunc.
+                           Nulla orci ante, eleifend vestibulum consequat id, scelerisque ac tortor.</p>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <a href="#" class="img-rounded">
+                            <img src="img/png/icon_web_service.png" alt="...">
+                        </a>
+                        <h4>Web Service</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae sem nunc.
+                           Nulla orci ante, eleifend vestibulum consequat id, scelerisque ac tortor.</p>
+                    </div>
+                    </div>
+
+                <!--koniec galeri-->
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="banner col-lg-12">
+            <div class="banner-contact-bg">
+                <div id="contact" class="banner-title-contact col-xs-9">
+                    <h2><strong>When</strong></h2>
+                    <h3><strong>Can we start?</strong></h3>
+                    <div class="separator"></div>
+                    <p class="text-color-1">Drop my a line:</p>
+                    <p class="text-color-2">Daniel.Milewski86@wp.pl</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Efekt animacji-->
+<script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
+<script>
+    window.sr = ScrollReveal();
+    sr.reveal('.icon', {
+        reset: true,
+        delay: 300,
+        distance: 0
+    });
+    sr.reveal('h1, h2, p', {
+        reset: true,
+        delay: 300
+    });
+</script>
+
+<script>
+    jQuery(function($)
+            {
+                //zresetuj scrolla
+                $.scrollTo(0);
+
+                $('#Link').click(function() { $.scrollTo($('#banner'), 500); });
+                $('#Link1').click(function() { $.scrollTo($('#about'), 500); });
+                $('#Link2').click(function() { $.scrollTo($('#skills'), 500); });
+                $('#Link3').click(function() { $.scrollTo($('#contact'), 500); });
+
+
+                $('.scrollup').click(function() { $.scrollTo($('body'), 1000); });
+            }
+    );
+</script>
+<!--TRZEBA PODPIAC JQ I SCIAGNAC -->
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+
