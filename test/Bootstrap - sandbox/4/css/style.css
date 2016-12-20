@@ -10,3 +10,8 @@
 .nav > li > a{
     color:gray;
 }
+.nav > li > a:hover{
+    background-color: #fff;
+    opacity: 0.5;
+   
+}
