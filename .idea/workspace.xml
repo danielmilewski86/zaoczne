@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="552472a3-101f-401c-b8dd-d56304dd4424" name="Default" comment="glowna navigacja" />
+=======
+    <list default="true" id="77a758d0-8b4b-4855-8ab5-61ebf0dc3a43" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/KOSTEK/1/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/KOSTEK/1/style.css" />
+    </list>
+>>>>>>> origin/master
     <ignored path="zaoczne.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,6 +29,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/test/Bootstrap - sandbox/3/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
@@ -36,6 +44,12 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1581">
               <caret line="93" column="19" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="19" />
+=======
+        <entry file="file://$PROJECT_DIR$/test/Bootstrap - sandbox/2/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> origin/master
               <folding />
             </state>
           </provider>
@@ -47,7 +61,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+<<<<<<< HEAD
         <option value="tsconfig.json" />
+=======
+>>>>>>> origin/master
         <option value="HTML File" />
         <option value="CSS File" />
       </list>
@@ -55,10 +72,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+<<<<<<< HEAD
+=======
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="function-content-loading" />
+      </map>
+    </option>
+>>>>>>> origin/master
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/test/zadania domowe/30.07/index.html" />
         <option value="$PROJECT_DIR$/Materia-y-master/PodstawyJavaScript-koans-master/koans/AboutArrays.js" />
         <option value="$PROJECT_DIR$/test/zadania domowe/06.08/index.html" />
@@ -95,6 +121,38 @@
         <option value="$PROJECT_DIR$/test/Bootstrap - sandbox/2/index.html" />
         <option value="$PROJECT_DIR$/test/Bootstrap - sandbox/3/css/mojeStyle.css" />
         <option value="$PROJECT_DIR$/test/Bootstrap - sandbox/3/index.html" />
+=======
+        <option value="$PROJECT_DIR$/test/menu.html" />
+        <option value="$PROJECT_DIR$/Materia-y-master/PodstawyJavaScript/solutions/2b.Promos.html" />
+        <option value="$PROJECT_DIR$/Materia-y-master/PodstawyJavaScript/1.Trains.html" />
+        <option value="$PROJECT_DIR$/test/ikona-powrotu.css" />
+        <option value="$PROJECT_DIR$/Materia-y-master/PodstawyJavaScript/0.Sandbox.html" />
+        <option value="$PROJECT_DIR$/Materia-y-master/PodstawyJavaScript/2a.Languages.html" />
+        <option value="$PROJECT_DIR$/Materia-y-master/PodstawyJavaScript/3a.while.html" />
+        <option value="$PROJECT_DIR$/Materia-y-master/PodstawyJavaScript/3b.for.html" />
+        <option value="$PROJECT_DIR$/test/podzielnePrzez7.html" />
+        <option value="$PROJECT_DIR$/Moje-projekty/Wiedzmin/wiedzmin.html" />
+        <option value="$PROJECT_DIR$/test/potwierdzenie-wyslania-form.html" />
+        <option value="$PROJECT_DIR$/test/responsywny.html" />
+        <option value="$PROJECT_DIR$/test/responsywny.css" />
+        <option value="$PROJECT_DIR$/Materia-y-master/PodstawyJavaScript-koans-master/koans/AboutExpects.js" />
+        <option value="$PROJECT_DIR$/Materia-y-master/PodstawyJavaScript-koans-master/koans/AboutArrays.js" />
+        <option value="$PROJECT_DIR$/Materia-y-master/PodstawyJavaScript-koans-master/koans/AboutFunctions.js" />
+        <option value="$PROJECT_DIR$/test/zadania domowe/06.08/index.html" />
+        <option value="$PROJECT_DIR$/test/gra.css" />
+        <option value="$PROJECT_DIR$/test/gra.html" />
+        <option value="$PROJECT_DIR$/test/Bootstrap - sandbox/index.html" />
+        <option value="$PROJECT_DIR$/test/zadania domowe/funkcjie map, filter, reduce/index.html" />
+        <option value="$PROJECT_DIR$/test/zadania domowe/funkcjie map, filter, reduce/script.js" />
+        <option value="$PROJECT_DIR$/Materia-y-master/PodstawyJavaScript-koans-master/koans/AboutObjects.js" />
+        <option value="$PROJECT_DIR$/test/JS-sandbox/index.html" />
+        <option value="$PROJECT_DIR$/test/JS-sandbox/script.js" />
+        <option value="$PROJECT_DIR$/Moje-projekty/wizytowka/style/style.css" />
+        <option value="$PROJECT_DIR$/Moje-projekty/wizytowka/index.html" />
+        <option value="$PROJECT_DIR$/Moje-projekty/wizytowka/JS/script.js" />
+        <option value="$PROJECT_DIR$/test/KOSTEK/1/index.html" />
+        <option value="$PROJECT_DIR$/test/KOSTEK/1/style.css" />
+>>>>>>> origin/master
       </list>
     </option>
   </component>
@@ -107,8 +165,13 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
+<<<<<<< HEAD
     <option name="width" value="1382" />
     <option name="height" value="744" />
+=======
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
+>>>>>>> origin/master
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -186,7 +249,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="3" />
+=======
+              <option name="myItemId" value="2" />
+>>>>>>> origin/master
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -208,6 +275,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+<<<<<<< HEAD
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="zaoczne" />
@@ -220,11 +288,24 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Moje-projekty" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+=======
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+>>>>>>> origin/master
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+>>>>>>> origin/master
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,6 +314,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+<<<<<<< HEAD
     <property name="editor.config.accepted" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -245,6 +327,16 @@
       <recent name="C:\Users\DanielM\Desktop\jfdz-rrrr-wishes\zaoczne\test\Bootstrap - sandbox\3\jQ" />
       <recent name="C:\Users\DanielM\Desktop\jfdz-rrrr-wishes\zaoczne\test\kalendarz" />
       <recent name="C:\Users\DanielM\Desktop\jfdz-rrrr-wishes\zaoczne\Materia-y-master\PodstawyJavaScript-part2" />
+=======
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+  </component>
+  <component name="RecentsManager">
+    <key name="OPEN_URL_DIALOG">
+      <recent name="https://github.com/infoshareacademy/jfdz-rrrr-wishes" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Domowy\.WebStorm2016.1\zaoczne\Moje-projekty\wizytowka\JQ" />
+>>>>>>> origin/master
     </key>
   </component>
   <component name="RunManager">
@@ -310,6 +402,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="552472a3-101f-401c-b8dd-d56304dd4424" name="Default" comment="" />
       <created>1469686917210</created>
       <option name="number" value="Default" />
@@ -719,11 +812,372 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+=======
+      <changelist id="77a758d0-8b4b-4855-8ab5-61ebf0dc3a43" name="Default" comment="" />
+      <created>1466415530501</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1466415530501</updated>
+      <workItem from="1466415531586" duration="93000" />
+      <workItem from="1466415785697" duration="187000" />
+      <workItem from="1466750025205" duration="655000" />
+      <workItem from="1466967672057" duration="1327000" />
+      <workItem from="1467304979215" duration="619000" />
+      <workItem from="1467659085608" duration="2496000" />
+      <workItem from="1467699497589" duration="6346000" />
+      <workItem from="1467953529589" duration="6624000" />
+      <workItem from="1468330094809" duration="60000" />
+      <workItem from="1468334204338" duration="4507000" />
+      <workItem from="1468438293574" duration="404000" />
+      <workItem from="1468520638263" duration="1554000" />
+      <workItem from="1468694475632" duration="3115000" />
+      <workItem from="1468828578554" duration="62000" />
+      <workItem from="1468998092729" duration="10452000" />
+      <workItem from="1469082544970" duration="671000" />
+      <workItem from="1469093795614" duration="444000" />
+      <workItem from="1469131313524" duration="90000" />
+      <workItem from="1469179257513" duration="6147000" />
+      <workItem from="1469469050095" duration="1215000" />
+      <workItem from="1469911038604" duration="41000" />
+      <workItem from="1469911744036" duration="375000" />
+      <workItem from="1470029497875" duration="12104000" />
+      <workItem from="1470120109047" duration="7432000" />
+      <workItem from="1470210603285" duration="5466000" />
+      <workItem from="1470391491668" duration="1726000" />
+      <workItem from="1470821147670" duration="503000" />
+      <workItem from="1470823152868" duration="7038000" />
+      <workItem from="1470831875730" duration="957000" />
+      <workItem from="1470919520579" duration="9012000" />
+      <workItem from="1471599600283" duration="2062000" />
+      <workItem from="1471623779766" duration="286000" />
+      <workItem from="1471624924965" duration="2447000" />
+      <workItem from="1471700952579" duration="68000" />
+      <workItem from="1471803331488" duration="557000" />
+      <workItem from="1472458378418" duration="620000" />
+      <workItem from="1472631328045" duration="13000" />
+      <workItem from="1472808890286" duration="2625000" />
+      <workItem from="1473925952519" duration="6348000" />
+      <workItem from="1474919276092" duration="822000" />
+      <workItem from="1474956470746" duration="8407000" />
+      <workItem from="1474997991754" duration="99000" />
+      <workItem from="1475045967159" duration="8092000" />
+      <workItem from="1475062838749" duration="225000" />
+      <workItem from="1475131160165" duration="4860000" />
+      <workItem from="1475332700387" duration="5000" />
+      <workItem from="1475334481698" duration="687000" />
+      <workItem from="1475515742013" duration="1960000" />
+      <workItem from="1475579256876" duration="11976000" />
+      <workItem from="1475608182599" duration="162000" />
+      <workItem from="1475770135140" duration="268000" />
+      <workItem from="1476029640715" duration="231000" />
+      <workItem from="1476029987879" duration="908000" />
+      <workItem from="1478513217889" duration="295000" />
+      <workItem from="1478724881317" duration="175000" />
+      <workItem from="1479721126272" duration="601000" />
+      <workItem from="1480712293999" duration="7643000" />
+      <workItem from="1480767204203" duration="15852000" />
+      <workItem from="1480788689709" duration="2000" />
+      <workItem from="1480868993741" duration="477000" />
+      <workItem from="1481089443866" duration="652000" />
+    </task>
+    <task id="LOCAL-00001" summary="info-materialy">
+      <created>1467660109448</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1467660109448</updated>
+    </task>
+    <task id="LOCAL-00002" summary="bez zmian">
+      <created>1467953752917</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1467953752917</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ikona powrotu">
+      <created>1467954032491</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1467954032491</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ikona powrotu+ border-radius+opacity">
+      <created>1467954253433</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1467954253433</updated>
+    </task>
+    <task id="LOCAL-00005" summary="poprawka w kodzie usuniecie script">
+      <created>1467954976989</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1467954976989</updated>
+    </task>
+    <task id="LOCAL-00006" summary="cwiczenia z if">
+      <created>1467973246861</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1467973246861</updated>
+    </task>
+    <task id="LOCAL-00007" summary="cwiczenia z while">
+      <created>1467975549779</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1467975549779</updated>
+    </task>
+    <task id="LOCAL-00008" summary="cwiczenia z funkcjami">
+      <created>1467984694146</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1467984694146</updated>
+    </task>
+    <task id="LOCAL-00009" summary="//############">
+      <created>1468354278200</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1468354278200</updated>
+    </task>
+    <task id="LOCAL-00010" summary="chwilowo w tym pliku zachodza zmiany. dodanie ikonek do menu + style i ukrycie ikonek podczas skalowania">
+      <created>1469008023054</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1469008023054</updated>
+    </task>
+    <task id="LOCAL-00011" summary="dodanie folderu z ikonkami">
+      <created>1469010575992</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1469010575992</updated>
+    </task>
+    <task id="LOCAL-00012" summary="poprawki w sekcjach banner i features">
+      <created>1469180041847</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1469180041847</updated>
+    </task>
+    <task id="LOCAL-00013" summary="poprawki w sekcji skills + css ustawienie elementow i dodanie ikonek.png">
+      <created>1469183787065</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1469183787065</updated>
+    </task>
+    <task id="LOCAL-00014" summary="poprawki w css ustawienia paddingu i w html podlinkowanie sekcji">
+      <created>1469184326344</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1469184326344</updated>
+    </task>
+    <task id="LOCAL-00015" summary="poprawki w css ustawienia paddingu i w html podlinkowanie sekcji">
+      <created>1469184340893</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1469184340893</updated>
+    </task>
+    <task id="LOCAL-00016" summary="dodanie sekcji contact + style w css">
+      <created>1469185797875</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1469185797875</updated>
+    </task>
+    <task id="LOCAL-00017" summary="dodanie pdf. (JQ i JS)">
+      <created>1469911895179</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1469911895179</updated>
+    </task>
+    <task id="LOCAL-00018" summary="dodanie cwicenia (JS - koans-master)">
+      <created>1469911997806</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1469911997806</updated>
+    </task>
+    <task id="LOCAL-00019" summary="zadanie pierwsze - done">
+      <created>1470040560662</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1470040560662</updated>
+    </task>
+    <task id="LOCAL-00020" summary="zadanie drugie Arrays">
+      <created>1470048997511</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1470048997511</updated>
+    </task>
+    <task id="LOCAL-00021" summary="zadanie drugie Arrays - done">
+      <created>1470121040928</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1470121040928</updated>
+    </task>
+    <task id="LOCAL-00022" summary="zadanie AboutFunction - done">
+      <created>1470125549513</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1470125549513</updated>
+    </task>
+    <task id="LOCAL-00023" summary="praca domowa 06.08 -&gt;start">
+      <created>1470126691886</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1470126691886</updated>
+    </task>
+    <task id="LOCAL-00024" summary="nie ma zmian">
+      <created>1470222207139</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1470222207139</updated>
+    </task>
+    <task id="LOCAL-00025" summary="zadanie domowe - zadanie 1 z 3">
+      <created>1470924866327</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1470924866327</updated>
+    </task>
+    <task id="LOCAL-00026" summary="zadania domowe 20.08">
+      <created>1471623950013</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1471623950013</updated>
+    </task>
+    <task id="LOCAL-00027" summary="gra w html i css">
+      <created>1471624035076</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1471624035076</updated>
+    </task>
+    <task id="LOCAL-00028" summary="przygotowanie podstwy i info do botstrapa">
+      <created>1471625402626</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1471625402626</updated>
+    </task>
+    <task id="LOCAL-00029" summary="testy z zawartoscia containera">
+      <created>1471628275273</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1471628275273</updated>
+    </task>
+    <task id="LOCAL-00030" summary="map, filter, reduce">
+      <created>1473933448577</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1473933448577</updated>
+    </task>
+    <task id="LOCAL-00031" summary="poprawki w css &quot;padding&quot;">
+      <created>1474959394644</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1474959394644</updated>
+    </task>
+    <task id="LOCAL-00032" summary="dodanie @media">
+      <created>1474961775947</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1474961775947</updated>
+    </task>
+    <task id="LOCAL-00033" summary="object testy">
+      <created>1474974680480</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1474974680480</updated>
+    </task>
+    <task id="LOCAL-00034" summary="testy z JS i JQ">
+      <created>1475058942590</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1475058942590</updated>
+    </task>
+    <task id="LOCAL-00035" summary="testy z JS i JQ">
+      <created>1475146251402</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1475146251402</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Testy z RWD, css - @media">
+      <created>1475517867669</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1475517867669</updated>
+    </task>
+    <task id="LOCAL-00037" summary="dodanie pliku JQ + HTML dodanie klasy banner-project + jq ukrywanie div po kliknieciu">
+      <created>1475587035008</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1475587035008</updated>
+    </task>
+    <task id="LOCAL-00038" summary="dodanie png + drobne poprawdki w css + podlinkowanie">
+      <created>1475594848127</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1475594848127</updated>
+    </task>
+    <task id="LOCAL-00039" summary="testy z wyswietlaniem diva">
+      <created>1475596880193</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1475596880193</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="171147000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12424608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29944134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+>>>>>>> origin/master
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+<<<<<<< HEAD
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -747,6 +1201,12 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
+=======
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+>>>>>>> origin/master
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -760,6 +1220,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+<<<<<<< HEAD
     <MESSAGE value="dodanie img Lora_more" />
     <MESSAGE value="dodanie favicon" />
     <MESSAGE value="dodanie animacji na stonie" />
@@ -818,12 +1279,76 @@
     <entry file="file://$PROJECT_DIR$/test/kalendarz/kalendarz.js" />
     <entry file="file://$PROJECT_DIR$/test/kalendarz/kalendarz.css" />
     <entry file="file://$PROJECT_DIR$/test/JQ/jquery-3.1.0.min.js">
+=======
+    <MESSAGE value="poprawki w sekcji skills + css ustawienie elementow i dodanie ikonek.png" />
+    <MESSAGE value="poprawki w css ustawienia paddingu i w html podlinkowanie sekcji" />
+    <MESSAGE value="dodanie sekcji contact + style w css" />
+    <MESSAGE value="dodanie pdf. (JQ i JS)" />
+    <MESSAGE value="dodanie cwicenia (JS - koans-master)" />
+    <MESSAGE value="zadanie pierwsze - done" />
+    <MESSAGE value="zadanie drugie Arrays" />
+    <MESSAGE value="zadanie drugie Arrays - done" />
+    <MESSAGE value="zadanie AboutFunction - done" />
+    <MESSAGE value="praca domowa 06.08 -&gt;start" />
+    <MESSAGE value="nie ma zmian" />
+    <MESSAGE value="zadanie domowe - zadanie 1 z 3" />
+    <MESSAGE value="zadania domowe 20.08" />
+    <MESSAGE value="gra w html i css" />
+    <MESSAGE value="przygotowanie podstwy i info do botstrapa" />
+    <MESSAGE value="testy z zawartoscia containera" />
+    <MESSAGE value="map, filter, reduce" />
+    <MESSAGE value="poprawki w css &quot;padding&quot;" />
+    <MESSAGE value="dodanie @media" />
+    <MESSAGE value="object testy" />
+    <MESSAGE value="testy z JS i JQ" />
+    <MESSAGE value="Testy z RWD, css - @media" />
+    <MESSAGE value="dodanie pliku JQ + HTML dodanie klasy banner-project + jq ukrywanie div po kliknieciu" />
+    <MESSAGE value="dodanie png + drobne poprawdki w css + podlinkowanie" />
+    <MESSAGE value="testy z wyswietlaniem diva" />
+    <option name="LAST_COMMIT_MESSAGE" value="testy z wyswietlaniem diva" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/structural.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Materia-y-master/PodstawyJavaScript-koans-master/jasmine/runner_specs/suites/KoansRunnerSpec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Materia-y-master/PodstawyJavaScript-koans-master/jasmine/runner_specs/TestJSKoansRunner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Materia-y-master/PodstawyJavaScript-koans-master/koans/AboutExpects.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Materia-y-master/PodstawyJavaScript-koans-master/koans/AboutMutability.js">
+>>>>>>> origin/master
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/test/kalendarz/jquery-3.1.0.min.js" />
     <entry file="file://$PROJECT_DIR$/test/kalendarz/kalendarz.html" />
     <entry file="file://$PROJECT_DIR$/test/zadania domowe/funkcjie map, filter, reduce/index.html">
@@ -865,17 +1390,85 @@
     <entry file="file://$PROJECT_DIR$/Materia-y-master/PodstawyJavaScript-koans-master/koans/AboutFunctions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1183">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/Materia-y-master/PodstawyJavaScript-koans-master/koans/AboutArrays.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="71" column="36" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Materia-y-master/PodstawyJavaScript-koans-master/koans/AboutExpects.js">
+    <entry file="file://$PROJECT_DIR$/Materia-y-master/PodstawyJavaScript-koans-master/koans/AboutFunctions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="730">
+          <caret line="98" column="5" selection-start-line="98" selection-start-column="5" selection-end-line="98" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/zadania domowe/06.08/public/css/basic.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/core-scripting.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="67" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/gra.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/gra.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/slider.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-561">
+>>>>>>> origin/master
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/Materia-y-master/PodstawyJavaScript-koans-master/koans/AboutExpects.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+=======
+    <entry file="file://$PROJECT_DIR$/test/menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/zadania domowe/20.08/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1428">
+>>>>>>> origin/master
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Materia-y-master/PodstawyJavaScript-koans-master/koans/AboutArrays.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1105">
@@ -891,12 +1484,30 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Materia-y-master/PodstawyJavaScript-koans-master/KoansRunner.html">
+=======
+    <entry file="file://$PROJECT_DIR$/test/Bootstrap - sandbox/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Materia-y-master/PodstawyJavaScript-part3/1.object.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Materia-y-master/PodstawyJavaScript-part3/2.people.html">
+>>>>>>> origin/master
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/test/JS-sandbox/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -912,36 +1523,73 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Materia-y-master/Refactoring/cwiczenie1/1.board.html">
+=======
+    <entry file="file://$PROJECT_DIR$/test/sandbox-JQ.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/20160827/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20160716/index.html">
+>>>>>>> origin/master
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Materia-y-master/Refactoring/cwiczenie1/main.js">
+=======
+    <entry file="file://$PROJECT_DIR$/20160619/index.html">
+>>>>>>> origin/master
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/test/React-testy/examples/basic-click-counter/index.html" />
     <entry file="file://$PROJECT_DIR$/test/React-testy/README.md">
+=======
+    <entry file="file://$PROJECT_DIR$/Materia-y-master/PodstawyJavaScript-part2/3.jq.classes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Materia-y-master/PodstawyJavaScript-part2/0.sandbox.html">
+>>>>>>> origin/master
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/test/React-testy/src/helloworld.js" />
     <entry file="file://$PROJECT_DIR$/test/React-testy/index.html" />
     <entry file="file://$PROJECT_DIR$/test/React-testy/comments.json">
+=======
+    <entry file="file://$PROJECT_DIR$/Materia-y-master/PodstawyJavaScript-part2/5.jq.animacje.html">
+>>>>>>> origin/master
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/test/React-testy/public/scripts/example.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -957,12 +1605,30 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/20161007/danielmilewski/public/index.html">
+=======
+    <entry file="file://$PROJECT_DIR$/Materia-y-master/PodstawyJavaScript-part3/3.jq.animacje.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Materia-y-master/PodstawyJavaScript-part3/4.date.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Materia-y-master/PodstawyJavaScript-part3/5.string.html">
+>>>>>>> origin/master
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/test/React-testy/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1043,18 +1709,128 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+=======
+    <entry file="file://$PROJECT_DIR$/test/zadania domowe/Tablica 10x10/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="56" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/zadania domowe/funkcjie map, filter, reduce/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/zadania domowe/funkcjie map, filter, reduce/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="36" column="75" selection-start-line="36" selection-start-column="75" selection-end-line="36" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Materia-y-master/PodstawyJavaScript-koans-master/koans/AboutObjects.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/zadania domowe/06.08/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="99" column="153" selection-start-line="99" selection-start-column="153" selection-end-line="99" selection-end-column="153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/JS-sandbox/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Materia-y-master/PodstawyJavaScript-koans-master/koans/AboutHigherOrderFunctions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-103">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Materia-y-master/PodstawyJavaScript-koans-master/koans/AboutApplyingWhatWeHaveLearnt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Materia-y-master/PodstawyJavaScript-koans-master/KoansRunner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Materia-y-master/PodstawyJavaScript-koans-master/koans/AboutInheritance.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Moje-projekty/Wiedzmin/wiedzmin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Moje-projekty/wizytowka/JQ/jquery-3.1.0.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Moje-projekty/wizytowka/JQ/jquery.scrollTo.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/JS-sandbox/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="314" column="79" selection-start-line="314" selection-start-column="3" selection-end-line="314" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Moje-projekty/wizytowka/style/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+>>>>>>> origin/master
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Moje-projekty/wizytowka/JS/script.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="384">
           <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+=======
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+>>>>>>> origin/master
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Moje-projekty/wizytowka/index.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="306">
           <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
         </state>
@@ -1071,18 +1847,66 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1581">
           <caret line="93" column="19" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="19" />
+=======
+        <state relative-caret-position="539">
+          <caret line="144" column="10" selection-start-line="144" selection-start-column="10" selection-end-line="144" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="59" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/wwwSTRONYwww/Apple vol.2/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/wwwSTRONYwww/Apple vol.2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="691">
+          <caret line="159" column="95" selection-start-line="156" selection-start-column="3" selection-end-line="159" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/KOSTEK/1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="807">
+          <caret line="63" column="7" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
+>>>>>>> origin/master
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/test/Bootstrap - sandbox/3/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="137" column="39" selection-start-line="137" selection-start-column="39" selection-end-line="137" selection-end-column="39" />
+=======
+    <entry file="file://$PROJECT_DIR$/test/KOSTEK/1/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="91" column="37" selection-start-line="91" selection-start-column="37" selection-end-line="91" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/Bootstrap - sandbox/2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> origin/master
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
   </component>
   <component name="masterDetails">
     <states>
@@ -1098,5 +1922,7 @@
         </settings>
       </state>
     </states>
+=======
+>>>>>>> origin/master
   </component>
 </project>

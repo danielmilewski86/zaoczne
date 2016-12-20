@@ -1,0 +1,93 @@
+.clear{
+    clear: both;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 100%;
+
+}
+.banner{
+    width: 100%;
+    height: 1000px;
+    background-image: url(img/111a.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+
+}
+
+h1{
+    text-align: center;
+
+}
+
+h2{
+    /*text-align: center;*/
+    color: #989898;
+    margin-left: 150px;
+}
+
+h3{
+    margin-left: 150px;
+    text-align: justify;
+    color: #7e3ed3;
+}
+p{
+    margin-left: 150px;
+    text-align: justify;
+    color: #989898;
+}
+
+.bannerTwoTitle{
+    width: 40%;
+    float: left;
+
+    color: #000000;
+}
+.bannerTwoBg{
+    float: left;
+    width: 60%;
+    height: 500px;
+    background-image: url(img/112b.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+
+}
+
+.bannerTree{
+    width: 100%;
+    height: 1050px;
+    background-image: url(img/113b.png);
+    background-repeat: no-repeat;
+
+    background-size:100% ;
+}
+
+.bannerTreeTitle{
+    margin-top: 400px;
+    float: left;
+    width: 500px;
+    height: 300px;
+    background-color: red;
+}
+
+.bannerTreeBg{
+    margin-top: 400px;
+    float: left;
+    width: 500px;
+    height: 300px;
+    background-color: #00AABB;
+    background-image: url(img/114.png);
+}
