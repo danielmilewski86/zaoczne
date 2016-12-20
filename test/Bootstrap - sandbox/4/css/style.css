@@ -1,3 +1,12 @@
+p{
+    text-align: justify;
+}
+h2{
+    color: gray;
+}
+.zdjecie{
+    margin: 0px;
+}
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
@@ -25,7 +34,19 @@
 .footer{
     margin-top: 50px;
 }
-
+.content{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+.separator{
+    border-bottom: 1px solid gray;
+    margin: 50px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right:auto;
+}
 /*=========================
   Icons
  ================= */
