@@ -10,18 +10,21 @@
 .nav > li > a{
     background-color: white;
     color:gray;
+    opacity: 0.4;
 }
 .nav > li > a:hover{
     background-color: #fff;
-    opacity: 0.5;
+    opacity: 0.8;
    
 }
+
 .logo{
     margin-top:20px;
     margin-bottom: 40px;
-
 }
-
+.footer{
+    margin-top: 50px;
+}
 
 /*=========================
   Icons
