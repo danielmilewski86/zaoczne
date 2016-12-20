@@ -5,7 +5,7 @@ h2{
     color: gray;
 }
 .zdjecie{
-    margin: 0px;
+    margin-bottom: 5px;
 }
 .navbar .navbar-nav {
   display: inline-block;
