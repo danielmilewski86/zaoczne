@@ -15,20 +15,81 @@ body{
 
 .container{
     width: 100%;
+    height:1000px;
 }
-.banner{
+.nav{
+    position: fixed;
+    top:0;
     width: 100%;
-    height:150px;
-    background-color: darkgoldenrod;
+    background: rgba(0,0,0,0.6);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    border-bottom: 2px solid red;
+    z-index: 99999;
+    
 }
 .logo{
-    width: 30%;
+    width: 200px;
     height: 50px;
-    background-color: red;
 }
 .menu{
-    width: 40%;
-    height: 50px;
-    background-color: green;
+    width: 50%;
+    
+    
+}
+ol
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none; /*typ wystylizowania listy, bez numerow, kropek itp.*/
+	font-size:18px;
+	height:;
+	line-height:200%;
+	display:inline-block; /*element HTML będzie interpretowany przez przeglądarkę internetową jako element liniowy, lecz z zachowaniem pewnych cech elementu blokowego. */
+	
+}
+
+ol a
+{
+	color:#5aff00;
+	text-decoration: none;
+	display:bolck; /*zachowanie linka jako element blokowy i mozna przypisac mu wysokosc i szerokosc*/
+	
+}
+
+ol > li /*ol jest rodzicem li dziecka*/
+{
+	float:left;
+	width:150px;
+    text-align: center;
+	
+}
+
+ol > li:hover > a /*zmiana koloru czcionki po najechaniu*/
+{
+	color:#39dd00;
+}
+
+.about{
+    width: 100%;
+    height: 500px;
+    background-color:gold;
+    padding-top: 50px;
+    
+}
+.about-content{
+    
+    width: 30%;
+    height: 30%;
+    background-color: red;
+}
+
+
+
+
+
+.skills{
+    width: 100%;
+    height: 500px;
+    background-color: aqua;
 }
 
