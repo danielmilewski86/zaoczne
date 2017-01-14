@@ -1,3 +1,16 @@
+h1{
+
+}
+h2{
+  font-size: 50px;
+  color: #fff;
+}
+h6{
+    font-size: 20px;
+    color: #fff;
+}
+
+
 .clear{
     clear: both;
 }
@@ -25,26 +38,26 @@ body{
     box-shadow: 0 3px 10px rgba(0,0,0,0.2);
     border-bottom: 2px solid red;
     z-index: 99999;
-    
 }
 .logo{
     width: 200px;
     height: 50px;
+    background-image: url(../img/logo_header.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5px;
 }
 .menu{
     width: 50%;
-    
-    
 }
 ol
 {
 	padding: 0;
-	margin: 0;
 	list-style-type: none; /*typ wystylizowania listy, bez numerow, kropek itp.*/
 	font-size:18px;
-	height:;
 	line-height:200%;
 	display:inline-block; /*element HTML będzie interpretowany przez przeglądarkę internetową jako element liniowy, lecz z zachowaniem pewnych cech elementu blokowego. */
+    margin-left: 100px;
 	
 }
 
@@ -61,6 +74,7 @@ ol > li /*ol jest rodzicem li dziecka*/
 	float:left;
 	width:150px;
     text-align: center;
+    text-transform: uppercase;
 	
 }
 
@@ -71,25 +85,30 @@ ol > li:hover > a /*zmiana koloru czcionki po najechaniu*/
 
 .about{
     width: 100%;
-    height: 500px;
-    background-color:gold;
+    height: 700px;
+    background-image: url("../img/about_me_bg_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 50px;
     
 }
 .about-content{
     
-    width: 30%;
-    height: 30%;
-    background-color: red;
+/*    width: 30%;*/
+    max-width: 400px;
+    margin-left: 100px;
+    margin-top: 50px;
+
 }
-
-
-
-
 
 .skills{
     width: 100%;
     height: 500px;
     background-color: aqua;
+    background-image: url(../img/header_bg_image.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+
 }
 
