@@ -16,7 +16,9 @@
 
 <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
-
+    <script src="JQ/jquery-3.1.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="JQ/jquery.scrollTo.min.js"></script>
 
 </head>
 
@@ -70,6 +72,20 @@
 		</div>
 	</div><!--END CONTAINER-->
 
+
+<script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
+<script>
+    window.sr = ScrollReveal();
+    sr.reveal('.icon', {
+        reset: true,
+        delay: 300,
+        distance: 0
+    });
+    sr.reveal('h1, h2, p', {
+        reset: true,
+        delay: 300
+    });
+</script>
 	
 </body>
 </html>
