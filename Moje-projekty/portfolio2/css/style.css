@@ -102,64 +102,68 @@ ol > li:hover > a /*zmiana koloru czcionki po najechaniu*/
 
 }
 
-.skills{
+.skills-container{
     width: 100%;
-    height: 400px;
+/*    height: 400px;*/
     background-image: url(../img/header_bg_image.jpg);
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
-
-
 }
 
-.skills-content{
-    min-width: 100px;
-    margin-left: 100px;
-    padding-top: 100px;
 
-
-}
-.sklils-title{
-    width: 100%;
-    height: 100px;
+.skills-title{
+    width: 30%;
+    height: auto;
     background-color: red;
+    position: relative;
+    left: 67px;
+    top:50px;
+    word-wrap:break-word;
 }
-.skills1{
+.box-container{
     width: 100%;
-    background-color: #000;
+    height: auto;
+    margin-top: 100px;
     text-align: center;
-}
 
-.title1{
-    width: 24%;
-    height: 150px;
-    background-color: red;
+}
+.box1{
+    width: 300px;
+    height: 300px;
+    background-color: pink;
     display: inline-block;
     background-image: url(../img/icon_web_development.png);
     background-repeat: no-repeat;
-
-
+    background-position: center top 50px;
 }
 
-.title2{
-    width: 24%;
-    height: 150px;
-    background-color: red;
+.box2{
+    width: 300px;
+    height: 300px;
+    background-color: pink;
     display: inline-block;
-
 }
-.title3{
-    width: 24%;
-    height: 150px;
-    background-color: red;
+.box3{
+    width: 300px;
+    height: 300px;
+    background-color: pink;
     display: inline-block;
-
 }
-.title4{
-    width: 24%;
-    height: 150px;
-    background-color: red;
+.box4{
+    width: 300px;
+    height: 300px;
+    background-color: pink;
     display: inline-block;
-
 }
+
+
+
+
+
+
+
+
+
+
+
