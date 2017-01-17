@@ -1,67 +1,232 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <title>Portfolio</title>
+    <title>Wishes</title>
+    <meta name="viewport" content="initial-scale=1">
     
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800,900,200' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
     
+    <!--NARAZIE TAKIE PRZEKIRUNKOWANIE POTEM TRZEBA TO ZMIENIC-->
 </head>
 <body>
-    
-    <div class="container">
-        
-        <div id="header">
-            <div class="nav">
-                <div class="logo left">Daniel Milewski</div>
-                <div class="menu right">
-                    <ol>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Skills</a></li>
-                        <li><a href="#">Contact</a></li>
-                        
-                    </ol>
-                </div>
-                <div class="clear"></div>
-            </div>
+<section id="banner">
+
+    <div class="wrapper">
+        <header id="page-section-header" class="page-section-header">
             <div class="clear"></div>
-        </div><!--End header-->
-        <div id="section-about">
-            <div class="about">
-                <div class="about-content">
-                    <h2>
-                        Hello!<br>
-                        <span style="color:#5aff00;">I'm Daniel</span>
-                    </h2>
-                    <h6>
-                        I'm Front-End Developer with Junior level experience. My mission is to achieve your dreams and goals together.
-                    </h6>
-                </div>
-            </div>
+            <div class="logo left">Lora</div>
+            <nav class="menu right">
+                <ul>
+                    <li>
+                        <a href="#banner"><i class="ion-ios-home-outline"></i><br><span class="hiding">Home</span></a>
+                    </li>
+                    <li>
+                        <a href="#description"><i class="ion-ios-more-outline"></i><br><span class="hiding">About</span></a>
+                    </li>
+                    <li>
+                        <a href="#features"><i class="ion-ios-star-outline"></i><br><span class="hiding">Features</span></a>
+                    </li>
+                    <li>
+                        <a href="#team"><i class="ion-ios-people-outline"></i><br><span class="hiding">Team</span></a>
+                    </li>
+                    <li>
+                        <a href="#contact"><i class="ion-ios-at-outline"></i><br><span class="hiding">Contact</span></a>
+                    </li>
+                    <li>
+                        <a href="#openModal" onclick="openModal()">Sign up</a>
+                    </li>
+
+                </ul>
+            </nav>
+            <div class="clear"></div>
+        </header>
+        <div class="banner-title">
+            <h1>Your wishes</br> come true</h1>
+            <h4>Wishing, like sipping a glass of punch, or pulling aside a bearskin</br>
+                rug in order to access a hidden trapdoor in the floor, is merely a quiet </br>
+                way to spend one's time before the candles are extinguished on one's birthday cake.</h4>
+            <a href="#description" class="button">How we can help?</a>
+            <a href="#features" class="button">What you can achieve?</a>
         </div>
-        <div id="section-skills">
-            <div class="skills-container">
-                <div class="skills-title">
-                    <h2>My skills</h2>
-                </div>
-                <div class="box-container">
-                    <div class="box1"></div>
-                    <div class="box2"></div>
-                    <div class="box3"></div>
-                    <div class="box4"></div>
-                </div>
-            </div>
+    </div>
+</section>
+<section id="description">
+    <h2 class="left">About wishes</h2>
+    <div class="separator"></div>
+    <h4 class="right">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+        dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+        officia deserunt mollit anim id est laborum.
+    </h4>
+    <div class="clear"></div>
+</section>
+<section id="features">
+    <div class="features-wrapper">
+        <h2>Features</h2>
+        <div class="clear"></div>
+        <div class="icon icon-on-time">
+            <h3>Always on time</h3>
+            <p>Lorem ipsum dolor sit amet,
+                </br> consectetur adipiscing elit, sed do
+                </br> eiusmod tempor incididunt ut labore
+                </br> et dolore magna aliqua. </p>
         </div>
-        
-        <div id="footer"></div><!--End footer-->
-        
-        
-        
-       
-        
-        
-        
-    </div><!-- end container -->
-    
+        <div class="icon icon-made-with-love">
+            <h3>Made with love</h3>
+            <p>Lorem ipsum dolor sit amet,
+                </br> consectetur adipiscing elit, sed do
+                </br> eiusmod tempor incididunt ut labore
+                </br> et dolore magna aliqua. </p>
+        </div>
+        <div class="icon icon-support">
+            <h3>With our support</h3>
+            <p>Lorem ipsum dolor sit amet,
+                </br> consectetur adipiscing elit, sed do
+                </br> eiusmod tempor incididunt ut labore
+                </br> et dolore magna aliqua. </p>
+        </div>
+        <div class="clear"></div>
+        <div class="icon icon-unique-gift">
+            <h3>Unique gift</h3>
+            <p>Lorem ipsum dolor sit amet,
+                </br> consectetur adipiscing elit, sed do
+                </br> eiusmod tempor incididunt ut labore
+                </br> et dolore magna aliqua. </p>
+        </div>
+        <div class="icon icon-special-design">
+            <h3>Touching letter</h3>
+            <p>Lorem ipsum dolor sit amet,
+                </br> consectetur adipiscing elit, sed do
+                </br> eiusmod tempor incididunt ut labore
+                </br> et dolore magna aliqua. </p>
+        </div>
+        <div class="icon icon-calligraphy">
+            <h3>Calligraphic style</h3>
+            <p>Lorem ipsum dolor sit amet,
+                </br> consectetur adipiscing elit, sed do
+                </br> eiusmod tempor incididunt ut labore
+                </br> et dolore magna aliqua. </p>
+        </div>
+        <div class="clear"></div>
+        <div class="cta-button" onclick="openModal()">
+            <a href="#openModal">Click for discount</a>
+        </div>
+    </div>
+</section>
+<section id="team">
+    <div class="team-wrapper">
+        <h2>Team</h2>
+        <div class="person daniel">
+            <h3>Daniel</h3>
+            <p>Creating sites is my greater passion. After hours I love
+             basketball and the good books.</p>
+        </div>
+        <div class="person marta">
+            <h3>Marta</h3>
+            <p>Above all,
+                I love aesthetics and the simplicity.
+                I am fascinated by an idea slow life and design.</p>
+        </div>
+        <div class="person marcin">
+            <h3>Marcin</h3>
+             <p>Football is the sense of my life.
+                Designing sites are a remarkable adventure full of challenges for me.</p>
+        </div>
+        <div class="person pawel">
+            <h3>Paweł</h3>
+              <p>Modernizing archaic plans is my passion.
+            I love to hustle and keep my energy level on it's highest level.</p>
+        </div>
+    </div>
+</section>
+<footer id="contact">
+    <div class="contact-nav left">
+        <a href="#banner">Home</a>
+        <a href="#description">About Lora</a>
+        <a href="#features">Features</a>
+        <a href="#team">Team</a>
+        <a href="#openModal" onclick="openModal()">Sign up</a>
+    </div>
+    <div class="contact-offer left">
+        <h3>Sign up for more awesomeness</h3>
+        <div class="cta-button">
+            <a href ="Cupid-death/game.html" id="#openGame">Click for discount</a>
+        </div>
+        <p class="copyright">&copy; copyright by RRRR</p>
+    </div>
+    <div class="social-contact right">
+        <a href="https://twitter.com/" class="social-icon icon-twitter"></a>
+        <a href="https://www.facebook.com/infoshareacademy/" class="social-icon icon-facebook"></a>
+        <a href="https://www.facebook.com/infoshareacademy/" class="social-icon icon-instagram"></a>
+    </div>
+    <div class="clear"></div>
+    <a href="#banner" class="button-back-to-top"></a>
+    <div id="modal">
+    </div>
+</footer>
+
+<!--#####################Modal Window#############################-->
+<div id="openModal" class="modalDialog">
+    <div>
+        <div class="close" onclick="closeModal()"></div>
+        <h3>Make it happen</h3>
+        <p>Don't live us without becoming an Lora insider</p>
+        <form id="formularz" action="">
+            <label for="name-field">Name</label>
+            <input id="name-field"
+                   name="nameFirst"
+                   required
+                   pattern="[A-Z]{5[0-9{5}"
+                   title=" "
+                   type="text"/>
+            <div class="clear"></div>
+            <label for="email-field">E-mail</label>
+            <input type="email" id="email-field" name="adressFirst"
+                   required
+                   pattern="[A-Z]{5[0-9{5}"
+                   title=" "
+            />
+            <div class="clear"></div>
+            <label><input type="checkbox" name="remember" value="1">Nie jestem robotem :)</label>
+            <input type="submit" id="guzik" value="send" onclick="sprawdz_formularz()">
+
+            <div class="komunikat"><h3>Dziekuje za wysłanie formularza :)</h3></div>
+            <div class="komunikat2"><h3>Nie zaznaczyłeś pola :)</h3></div>
+        </form>
+    </div>
+</div>
+<section id="cookie-warn">
+    <p><strong>UWAGA!</strong>
+        Niniejsza strona wykorzystuje pliki cookies.
+        Informacje uzyskane za pomocą cookies wykorzystywane są głównie
+        w celach statystycznych. Pozostając na stronie godzisz się na
+        ich zapisywanie w Twojej przeglądarce.
+
+        <a href="javascript:void(0);" id="close-cookie-warn">Zamknij ostrzeżenie</a></p>
+</section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script language="javascript" type="text/javascript" src="https://code.createjs.com/createjs-2015.11.26.min.js" ></script>
+<script language="javascript" type="text/javascript" src="Cupid-death/fastclick.js"></script>
+<script language="javascript" type="text/javascript" src="Cupid-death/init.js" ></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
+<script>
+    window.sr = ScrollReveal();
+    sr.reveal('.icon', {
+        reset: true,
+        delay: 300,
+        distance: 0
+    });
+    sr.reveal('h1, h2, p', {
+        reset: true,
+        delay: 300
+    });
+</script>
 </body>
 </html>
