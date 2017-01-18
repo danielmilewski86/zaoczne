@@ -8,7 +8,10 @@
     float: right;
 }
 body{
-    
+    height: 100%;
+}
+html{
+    height: 100%;
 }
 .container{
     width: 1200px;
@@ -24,40 +27,53 @@ body{
 .box1{
     float: left;
     width: 400px;
-    height: 400px;
+    height: 600px;
     background-color: aqua;
-    padding-bottom: 100px;
+    
 }
+
+
+
 .box2{
     float: left;
     width: 400px;
-    height: 400px;
+    height: 500px;
     background-color: green;  
-    padding-bottom: 150px;
+    
 }
 .box3{
     float: left;
     width: 400px;
     height: 400px;
     background-color: red;
-    padding-bottom: 200px;
+    
 }
 .box4{
-    float: left;
+    float: right;
     width: 400px;
     height: 400px;
     background-color: pink; 
     
 }
 .box5{
-    float: left;
+    float: right;
     width: 400px;
     height: 400px;
     background-color: brown;  
 }
 .box6{
-    float: left;
+    float: right;
     width: 400px;
     height: 400px;
     background-color: dimgrey;  
 }
+
+
+
+
+
+
+
+
+
+
