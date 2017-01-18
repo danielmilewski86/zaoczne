@@ -1,0 +1,63 @@
+.clear{
+    clear: both;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+body{
+    
+}
+.container{
+    width: 1200px;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.25);
+    box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.25);
+        
+}
+.box1{
+    float: left;
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    padding-bottom: 100px;
+}
+.box2{
+    float: left;
+    width: 400px;
+    height: 400px;
+    background-color: green;  
+    padding-bottom: 150px;
+}
+.box3{
+    float: left;
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    padding-bottom: 200px;
+}
+.box4{
+    float: left;
+    width: 400px;
+    height: 400px;
+    background-color: pink; 
+    
+}
+.box5{
+    float: left;
+    width: 400px;
+    height: 400px;
+    background-color: brown;  
+}
+.box6{
+    float: left;
+    width: 400px;
+    height: 400px;
+    background-color: dimgrey;  
+}
