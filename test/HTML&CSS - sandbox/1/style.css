@@ -157,28 +157,28 @@ article:hover .back .text {
 }
 
 article:nth-child(1) .front {
-  background-image: url(https://images.pexels.com/photos/173453/pexels-photo-173453.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
+    background-image: url(../img/header_bg_image.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    
 }
 article:nth-child(1) .front h1:before {
-/*  background-image: url(http://dev.devolk.pl/demo/cosmos/galaxy.svg);*/
     background-image: url(../img/logo_contact.png);
     background-repeat: no-repeat;
 }
 article:nth-child(2) .front {
-/*  background-image: url(https://images.pexels.com/photos/35600/road-sun-rays-path.jpg?w=1260&h=750&auto=compress&cs=tinysrgb);*/
     background-image: url(../img/about_me_bg_image.jpg);
     background-repeat: no-repeat;
 }
 article:nth-child(2) .front h1:before {
-/*  background-image: url(http://dev.devolk.pl/demo/cosmos/light.svg);*/
+
 }
 article:nth-child(3) .front {
-/*  background-image: url(https://images.pexels.com/photos/5439/earth-space.jpg?w=1260&h=750&auto=compress&cs=tinysrgb);*/
     background-image: url(../img/contact_bg_image.jpg);
     background-repeat: no-repeat;
 }
 article:nth-child(3) .front h1:before {
-/*  background-image: url(http://dev.devolk.pl/demo/cosmos/saturn.svg);*/
+
 }
 /*---------------------------------------------------------------*/
 
@@ -288,37 +288,6 @@ article:nth-child(4) .front-1 h1:before {
   background-image: url(../img/icon_web_service.png);
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
