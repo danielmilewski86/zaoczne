@@ -1,2 +1,57 @@
 @charset "utf-8";
 /* CSS Document*/
+
+body{
+    background: #000;
+}
+
+body, input, textarea, select{
+    font-family: 'SansationRegular';
+    font-size: 14px;
+    line-height: 23px;
+    color: #331404;
+}
+
+.pos-center{
+    margin: 0 auto;
+}
+
+/* style dla headera*/
+
+body > header{
+    background: #170901;
+    height: 76px;
+    border-bottom: 5px solid #f55b0c;
+}
+
+body > header .pos-center{
+    width: 940px;
+}
+
+body > header h1,
+body > header nav{
+    float: left;
+    color: #f55b0c;
+}
+
+body > header h1{
+    margin-top: 27px;
+    margin-right: 55px;
+}
+
+body > header h1,
+body > header h1 a{
+    width: 146px;
+    height: 25px;
+}
+
+body > header h1 a{
+   text-indent: -999em;
+    background: url(../img/lovetoeat-logo.png) no-repeat;
+    display: block;
+}
+
+
+
+
+
