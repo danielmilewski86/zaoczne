@@ -120,7 +120,25 @@ body > header nav ul li .sub-menu li a{
 }
 
 
+body > header nav .sub-menu li.lunch a{
+    background-image: url('../img/submenu-icon-dinner.png');
+}
 
+body > header nav .sub-menu li.breakfast a{
+    background-image: url('../img/submenu-icon-bread.png');
+}
+
+body > header nav .sub-menu li.snacks a{
+    background: url('../img/submenu-icon-snacks.png') 12px 10px no-repeat;
+}
+
+body > header nav .sub-menu li.desserts a{
+    background: url('../img/submenu-icon-desserts.png') 12px 8px no-repeat;
+}
+
+body > header nav .sub-menu li.drinks a{
+    background-image: url('../img/submenu-icon-drinks.png');
+}
 
 
 
