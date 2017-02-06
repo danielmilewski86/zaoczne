@@ -51,6 +51,87 @@ body > header h1 a{
     display: block;
 }
 
+/* mein menu */
+
+body > header nav ul.menu > li{
+    float: left;
+    position: relative;
+}
+
+body > header nav ul li a{
+    display: block;
+    font-family: 'MuseoSlab500Regular';
+    font-size: 14px;
+    color: #ff803f;
+    text-transform: uppercase;
+}
+
+body > header nav ul.menu > li > a{
+    padding: 35px 35px 0px;
+    height: 41px;
+}
+
+body > header nav ul.menu > li.current-menu-item > a,
+body > header nav ul.menu > li.current-menu-parent > a{
+    background: #f55b0c;
+    color: #170901;
+}
+
+body > header nav li > a:hover{
+    -moz-opacity: 0.70;
+    -khtml-opacity: 0.70;
+    opacity: 0.70;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=70);
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+}
+
+body > header nav ul.menu > li.current-menu-item > a:hover,
+body > header nav ul.menu > li.current-menu-parent > a:hover{
+    -moz-opacity: 1.00;
+    -khtml-opacity: 1.00;
+    opacity: 1.00;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+}
+
+body > header nav ul li .sub-menu{
+    background: #170901;
+    position: absolute;
+    top: 76px;
+    left: 0px;
+    z-index: 10;
+    width: 288px;
+    display: none;
+}
+
+body > header nav ul li:first-child:hover .sub-menu{
+    display: block;
+}
+
+body > header nav ul li .sub-menu li a{
+    display: block;
+    padding-left: 75px;
+    padding-top: 22px;
+    height: 38px;
+    background-position: 12px 5px;
+    background-repeat: no-repeat;
+    margin: 0 28px;
+    border-bottom: 1px dashed #3e1c09;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
