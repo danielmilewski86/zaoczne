@@ -141,9 +141,27 @@ body > header nav .sub-menu li.drinks a{
 }
 
 
+body > header nav .sub-menu li.all a{
+    background: #f55b0c;
+    padding: 5px 0px 0px;
+    height: 26px;
+    color: #230e02;
+    margin: 0px;
+    border: 0px;
+    text-align: center;
+}
 
-
-
+body > header nav .sub-menu li.all a span{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url(../img/submenu-icon-all.png) no-repeat;
+    border: 0px;
+    text-indent: -999em;
+    position: relative;
+    top: 2px;
+    margin-left: 5px;    
+}
 
 
 
