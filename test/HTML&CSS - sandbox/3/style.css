@@ -1,3 +1,14 @@
+a{
+    text-decoration: none;
+}
+#przod a {
+    color: aqua;
+}
+#tyl a{
+    color: #fff;
+}
+
+
 #pudelko{
     width: 380px;
     height: 50px;
